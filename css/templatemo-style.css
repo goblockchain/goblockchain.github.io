@@ -257,6 +257,12 @@ padding-top: 10px;
 padding-bottom: 30px; 
 } 
 
+#courses li
+{
+    text-align: left;
+    font-size: 15px;
+}
+
 
 /* end divider */
 
