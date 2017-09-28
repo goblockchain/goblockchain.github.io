@@ -8,7 +8,7 @@ http://www.templatemo.com/tm-446-boxer
 
 body
     {
-        background: #fff;
+        background: #f2f2f7;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         position: relative;
@@ -68,7 +68,7 @@ img
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1100px;
+    width: 1170px;
   }
 }
 /* end page container */
@@ -179,13 +179,19 @@ img
 /* start home */       
 #home
     {
-    /* background: url('../images/blockchain-digital-handshake.jpg') no-repeat; */
     background-size: cover;
-    color: #000000;
-    margin-top: 70px;
+    background-color: #f2f2f7;
+    /* margin-top: 70px; */
     text-align: center;
     width: 100%;
     }
+#home .container
+{
+    background-color: #f2f2f7;    
+    padding-top: 140px;
+    padding-bottom: 40px;
+
+}
 #home p
     {
         font-weight: 400;
@@ -214,6 +220,7 @@ img
 /* start why */
 #why
     {
+        background-color: #ffffff;
         text-align: center;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -240,7 +247,7 @@ img
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
-    background: rgb(50, 86, 137);
+    background: rgb(0, 116, 158);
 }
 #courses .fa
 {
@@ -295,6 +302,7 @@ padding-bottom: 30px;
     {
         padding-top: 60px;
         padding-bottom: 60px;
+        background-color: #ffffff;
     }
 #feature1 p
     {
@@ -341,7 +349,7 @@ padding-bottom: 30px;
     }
 #pricing .pricing .pricing-title
     {
-        background: #28a7e9;
+        background: rgb(0, 116, 158);
         color: #fff;
         font-weight: bold;
         padding: 30px;
@@ -418,7 +426,7 @@ padding-bottom: 30px;
     }
 #contact address .fa
     {
-        background: #28a7e9;
+        background: rgb(0, 116, 158);
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -448,6 +456,7 @@ padding-bottom: 30px;
         color: #fff;
         font-weight: bold;
         transition: all 0.3s ease;
+        text-align: center;
     }
 #contact input[type="submit"]:hover {
     background: #107DB6;
