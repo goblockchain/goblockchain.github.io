@@ -9,6 +9,7 @@ http://www.templatemo.com/tm-446-boxer
 body
     {
         background: #f2f2f7;
+        background-color: #f2f2f7;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         position: relative;
@@ -246,17 +247,21 @@ img
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: white;
-    background: rgb(0, 116, 158);
+    color: #000000;
+    background: #f8f8f8;
 }
 #courses .fa
 {
-    color: #28a7e9;
+    color: #FFFFFF;
     font-size: 60px;
 }
 #courses h3
 {
     font-size: 20px;
+}
+#courses h2
+{
+    padding-bottom: 40px;
 }
 #courses p
 {
@@ -329,7 +334,7 @@ padding-bottom: 30px;
 /* start pricing */
 #pricing
     {
-        background: #f8f8f8;
+        background: #fff;
         text-align: center;
         padding-top: 80px;
         padding-bottom: 80px;
@@ -414,7 +419,7 @@ padding-bottom: 30px;
     {
         background-size: cover;
         color: #fff;
-        background: rgb(50, 86, 137);            
+        background: #337ab7;            
     }
 #contact h2
     {
@@ -510,4 +515,7 @@ footer
             padding-bottom: 40px;
         }
 }
+
+.lead { font-size: 33px;margin-bottom:0px; }
+
 /* end media 360 */

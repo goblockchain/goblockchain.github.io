@@ -12,6 +12,9 @@
 		<meta name="keywords" content="blockchain, course, curso, bitcoin, ethereum">
 		<meta name="description" content="Cursos de Blockchain">
 		<meta name="author" content="Go Blockchain">
+		<!-- favicon -->
+		<link rel="icon" href="images/favicon.ico">
+
 		<link rel="stylesheet" media="screen" href="css/style.css">
 		<!-- animate css -->
 		<link rel="stylesheet" href="css/animate.min.css">
@@ -27,11 +30,12 @@
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
 		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments)};
-		gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
 
-		gtag('config', 'UA-107225502-1');
+			gtag('config', 'UA-107225502-1');
+			gtag('send', 'pageview');
 		</script>
 
 	</head>
@@ -60,7 +64,7 @@
 						<li><a href="#why">Benefícios do curso</a></li>
 						<li><a href="#pricing">Negócios</a></li>
 						<li><a href="#feature1">Diferencial</a></li>
-						<li><a href="#pricing">Incrições</a></li>
+						<li><a href="#contact">Incrições</a></li>
 						<li><a href="#contact">Contato</a></li>
 					</ul>
 				</div>
@@ -198,129 +202,78 @@
 					<div class="col-md-12 wow fadeInUp" data-wow-delay="0.5s">
 						<h2 class="text-uppercase">Sobre o curso</h2>
 					</div>
-					<div class="col-md-4 wow fadeInUp" data-wow-delay="1.00s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>O que é Blockchain e como aplicar</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
+					<div class="col-md-4" data-wow-delay="1.00s">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h4 class="text-center text-uppercase">O que é Blockchain e como aplicar</h4>
 							</div>
-							<ul>
-								<li>Conceitos</li>
-								<li>Lógica de Funcionamento do Blockchain</li>
-								<li>Onde e como se aplica Blockchain</li>
-								<li>O que é uma DLT</li>
-								<li>Discussão de um case</li>
-								<li>Exercícios</li>
+							<!-- <div class="panel-body text-center">
+								<p class="lead">
+									<strong>-</strong></p>
+							</div>				 -->
+							<ul class="list-group list-group-flush text-center">
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Conceitos</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Lógica de Funcionamento do Blockchain</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Onde e como se aplica Blockchain</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>O que são as DLT's</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Case</li>
 							</ul>
-							<!-- <button class="btn btn-primary text-uppercase">Sign up</button> -->
+							<div class="panel-footer">
+								<a class="btn btn-lg btn-block btn-danger text-uppercase" href="#contact">Tenho Interesse</a>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4 wow fadeInUp" data-wow-delay="1.50s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Para desenvolvedores - Blockchain I</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
+					<div class="col-md-4" data-wow-delay="1.25s">
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+								<h4 class="text-center text-uppercase">
+									Devs on Block I</h4>
 							</div>
-							<ul>
-								<li>Vamos descomplicar Blockchain</li>
-								<li>Montando ambiente de desenvolvimento</li>
-								<li>Conhecendo o Geth</li>
-								<li>Principais elementos do Solidity</li>
-								<li>O que é uma DAPP</li>
-								<li>Programando e publicando um Smart Contract</li>
-								<li>Acessando o Smart Contract via Front-end</li>
-								<li>Acessando o Smart Contract via Back-end</li>
-								<li>Discussão de um case</li>
-								<li>Exercícios</li>
+							<!-- <div class="panel-body text-center">
+								<p class="lead">
+									<strong>-</strong></p>
+							</div> -->
+							<ul class="list-group list-group-flush text-center">
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Vamos descomplicar Blockchain</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Montando ambiente de desenvolvimento</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Conhecendo o Geth</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Principais elementos do Solidity</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>O que é uma DAPP</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Programando e publicando um Smart Contract</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Acessando o Smart Contract via Front e Back</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Case</li>
 							</ul>
-							<!-- <button class="btn btn-primary text-uppercase">Sign up</button> -->
+							<div class="panel-footer">
+								<a class="btn btn-lg btn-block btn-info text-uppercase" href="#contact">Tenho Interesse</a>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4 wow fadeInUp" data-wow-delay="2.00s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Para desenvolvedores - Blockchain II</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
+					<div class="col-md-4" data-wow-delay="1.50s">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h4 class="text-center text-uppercase">Devs on Blocks II</h4>
 							</div>
-							<ul>
-								<li>Truffle framework</li>
-								<li>Introdução ao HyperLedger</li>
-								<li>Introdução ao IPFS</li>
-								<li>Criando um aplicação com Smart Contracts e IPFS</li>
-								<li>Conhecendo alguns Design Patterns para Smart Contracts</li>
-								<li>Discussão de um case</li>
-								<li>Exercícios</li>
+							<!-- <div class="panel-body text-center">
+								<p class="lead">
+									<strong>-</strong></p>
+							</div> -->
+							<ul class="list-group list-group-flush text-center">
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Truffle framework</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Introdução ao IPFS</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Criando um aplicação com Smart Contracts e IPFS</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Design Patterns para Smart Contracts</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Introdução ao HyperLedger</li>
+								<li class="list-group-item"><i class="icon-ok text-danger"></i>Case</li>
 							</ul>
-							<!-- <button class="btn btn-primary text-uppercase">Sign Up</button> -->
+							<div class="panel-footer">
+								<a class="btn btn-lg btn-block btn-success text-uppercase" href="#contact">Tenho Interesse</a>
+							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
-		</section>
+		</section>	
 		<!-- end courses -->
-
-		<!-- start pricing -->
-		<section id="pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounceIn">
-						<h2 class="text-uppercase">Incrições - O que é Blockchain e como aplicar</h2>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Primeira fase</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
-							</div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-							<button class="btn btn-primary text-uppercase">Sign up</button>
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Segunda fase</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
-							</div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-							<!-- <button class="btn btn-primary text-uppercase">Sign up</button> -->
-						</div>
-					</div>
-					<div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-						<div class="pricing text-uppercase">
-							<div class="pricing-title">
-								<h4>Terceira fase</h4>
-								<p>-</p>
-								<small class="text-lowercase">-</small>
-							</div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-							<!-- <button class="btn btn-primary text-uppercase">Sign Up</button> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- end pricing -->
 
 		<!-- start contact -->
 		<section id="contact">
