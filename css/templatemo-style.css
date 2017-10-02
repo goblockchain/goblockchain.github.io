@@ -203,19 +203,35 @@ img
 #home h1,h3
 {
     color: #000000;
+    margin-bottom: 0;
 }
 #home img
     {
         display: inline-block;
         margin-top: 30px;
     }
-    #home button
-    {
-        background-color: #ff500a;
-        border-color: #ff500a;
-        box-shadow: 0 0 24px 5px rgba(255, 73, 10, 0.4);
-    }
-    
+#home button
+{
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;        
+    text-align: center;
+    margin-top: 20px;
+}
+
+home, #btnAula{
+    background-color: #25C625;
+    border-color: #25C625;
+    box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);    
+}
+
+home, #btnInscricao{
+    background-color: #ff500a;
+    border-color: #ff500a;
+    box-shadow: 0 0 24px 5px rgba(255, 73, 10, 0.4);    
+}
+
 /* end home */
 
 /* start why */
