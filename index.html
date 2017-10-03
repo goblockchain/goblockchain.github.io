@@ -19,7 +19,10 @@
 		<!-- animate css -->
 		<link rel="stylesheet" href="css/animate.min.css">
 		<!-- bootstrap css -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 		<!-- font-awesome -->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- google font -->
@@ -60,11 +63,10 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right text-uppercase">
-						<li><a href="#courses">Sobre o curso</a></li>
+						<li><a href="#feature">Quem somos</a></li>
 						<li><a href="#why">Benefícios do curso</a></li>
-						<li><a href="#pricing">Negócios</a></li>
 						<li><a href="#feature1">Diferencial</a></li>
-						<li><a href="#contact">Incrições</a></li>
+						<li><a href="#courses">Incrições</a></li>
 						<li><a href="#contact">Contato</a></li>
 					</ul>
 				</div>
@@ -88,14 +90,51 @@
 					<div class="col-md-12"><h4><a href="#">Saiba mais</a> </h4></div>
 				</div>
 				<div>
-					<button id="btnAula" class="btn btn-success text-uppercase">Quero dar aula</button>
-					<button id="btnInscricao" class="btn btn-success text-uppercase">Quero fazer inscrição</button>
+					<a href="https://goo.gl/txQv36" name="btnAula" target="_blank" class="btn btn-success text-uppercase">Quero dar aula</a>
+					<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Tenho interesse</a>
 				</div>	
 				<div id="particles-js">
 				</div>													
 			</div>				
 		</section>
 		<!-- end home -->
+		<!-- start how are? -->
+		<section id="feature">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow fadeInLeft" data-wow-delay="0.6s">
+							<h2 class="text-uppercase">Quem somos</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+							<p>
+								A <strong>GoBlockchain</strong> é uma empresa que nasceu para contribuir com esse incrível universo da Tecnologia Blockchain,
+								inicialmente queriamos ser apenas uma grupo de pessoas para realizar aulas focadas em negócios e desenvolvimento. Mas pensamos... "falam e acreditamos que Blockchain é incrível então porque não utilizar na nossa empresa e assim criar uma escola
+								descentralizada e transparente?!" Isso mesmo, queremos ensinar e utilizar Blockchain, pensamos que dessa forma vamos conseguir ensinar melhor e colaborar com a evolução da tecnologia.
+							</p>
+							<p>
+								Dessa maneira a <strong>GoBlockchain</strong> não tem um "CEO" e sim participantes que realizam votações para definir o caminho da empresa, os participantes podem ser conselheiros, professores e alunos. O poder de voto esta definido de acordo com as ações realizadas para a empresa, quanto mais a pessoa contribuir maior é seu poder de voto durante o consenso.
+							</p>
+							<p>
+								Além disso vamos ter outras funcionalidades no Blockchain, ao lado apresentamos as atividades que imagimos que fazem sentido e que vão ser apresentadas durante os curso.
+							</p>							
+						</div>					
+						<div class="col-md-6 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-warning">Reputação da escola transparente</li>
+								<li class="list-group-item">Certificado</li>
+								<li class="list-group-item">Saldo da conta transparente</li>
+								<li class="list-group-item">Gastos transparentes</li>
+								<li class="list-group-item">Confirmação do curso após confirmação de saldo em conta</li>
+								<li class="list-group-item">Votação</li>
+								<li class="list-group-item">Tranferência ao professor após avaliação</li>
+							</ul>					
+						</div>							
+					</div>			
+				</div>
+			</section>
+			<!-- end feature -->		
 		<!-- start why -->
 		<section id="why">
 			<div class="container">
@@ -133,85 +172,104 @@
 		</section>
 		<!-- end divider -->
 
-		<!-- start feature -->
-		<section id="feature">
+		<section id="feature1">			
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 wow fadeInLeft" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Blockchain nos negócios</h2>
-					</div>
-					<p>
-						Estas são algumas áreas em que o Blockchain pode reduzir custos, aumentar transparência, eficiência e segurança. Queremos explorar estas e muitas outras. Vamos ajudar você a entender como e fazer isso junto com vocês. No dia do curso traga usa idéia e vamos estudar como implementar novas soluções baseadas em tecnologia Blockchain.					
-						<a href="http://futurethinkers.org/industries-blockchain-disrupt/">Saiba mais...</a></p>
-				</div>
-				<div class="row">
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-							<i class="fa fa-money"></i>
-							<h3 class="text-uppercase">Sistemas financeiros</h3>
-							<p>-</p>
+					<div class="col-md-12 mb-4" id="accordion" role="tablist" aria-multiselectable="true">
+						<h2 class="text-uppercase wow bounceIn">Nosso diferencial</h2>
+						<div class="row">
+							<div class="col-md-6 wow bounceIn animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+								<img src="images/ninja.jpeg" class="img-responsive" alt="feature img">
+							</div>								
+							<div class="col-md-6 wow bounceIn" data-wow-delay="0.6s">
+								<div class="card">
+									<div class="card-header" role="tab" id="headingOne">
+									<h5 class="mb-0">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Turmas reduzidas</a>
+									</h5>
+									</div>
+						
+									<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+									<div class="card-body">
+										As turmas serão formadas por até 12 pessoas para garantir melhor aproveitamento dos participantes									  
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" role="tab" id="headingTwo">
+									<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Turmas com o conhecimento nivelado
+										</a>
+									</h5>
+									</div>
+									<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+									<div class="card-body">
+										Queremos garantir o maior nível de aprendizado durante o curso, por isso as turmas serão formadas por pessoas com mesmo nível de interesse e conhecimento.
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" role="tab" id="headingThree">
+									<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Menos slides e mais prática</a>
+									</h5>
+									</div>
+									<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="card-body">
+										Nosso curso conta com módulos práticos em que você terá oportunidade de ter contato direto com o Blockchain Ethereum e assim criar projetos funcionais aplicando os conhecimentos adquiridos no curso.
+									</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" role="tab" id="headingFour">
+										<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											Transparência no conteúdo
+										</a>
+										</h5>
+									</div>
+									<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+										<div class="card-body">
+												Nosso curso conta com módulos práticos em que você terá oportunidade de ter contato direto com o Blockchain Ethereum e assim criar projetos funcionais aplicando os conhecimentos adquiridos no curso.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" role="tab" id="headingFive">
+										<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											Certificado no Blockchain do Ethereum
+										</a>
+										</h5>
+									</div>
+									<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+										<div class="card-body">
+											Seu certificado de participação no curso ficará registrado no Blockchain do Ethereum de forma inviolável garantindo autenticidade de emissão pela GoBlockchain e podendo ser consultado quando desejar.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" role="tab" id="headingSix">
+										<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+											Avaliação do curso registrada no Blockchain do Ethereum
+										</a>
+										</h5>
+									</div>
+									<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+										<div class="card-body">
+											Voce deixará sua avaliação sobre o curso registrada para sempre no Blockchain do Ethereum, dessa forma esperamos estar semre em busca da melhor qualidade de aula para nossos alunos.
+										</div>
+									</div>
+								</div>									
+							</div>
+						</div>																						
 					</div>					
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<i class="fa fa-heartbeat"></i>
-						<h3 class="text-uppercase">Saúde</h3>
-						<p>-</p>
-					</div>
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<i class="fa fa-truck"></i>
-						<h3 class="text-uppercase">Logistica</h3>
-						<p>-</p>
-					</div>
-					<div class="col-md-3 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-						<i class="fa fa-umbrella"></i>
-						<h3 class="text-uppercase">Cartórios</h3>
-						<p>-</p>
-					</div>
-				</div>			
-					<!-- <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<img src="images/impacting-industries.jpg" class="img-responsive" alt="feature img">
-					</div> -->
-			</div>
-		</section>
-		<!-- end feature -->
-
-		<!-- start feature1 -->
-		<section id="feature1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<img src="images/chain_diferencial.jpg" class="img-responsive" alt="feature img">
-					</div>
-					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Nosso diferencial</h2>
-						<p>Queremos que nossos alunos saiam com clareza sobre o assunto, por isso trabalhamos para que todos itens a seguir sejam cumpridos.</p>
-						<details>
-								<summary>Turmas reduzidas</summary>
-								<p>As turmas serão formadas por até 12 pessoas para garantir melhor aproveitamento dos participantes</p>
-						</details>
-						<details>
-								<summary>Turmas com o conhecimento nivelado</summary>
-								<p>Queremos garantir o maior nível de aprendizado durante o curso, por isso as turmas serão formadas por pessoas com mesmo nível de interesse e conhecimento.</p>
-						</details>
-						<details>
-								<summary>Menos slides e mais prática</summary>
-								<p>Nosso curso conta com módulos práticos em que você terá oportunidade de ter contato direto com o Blockchain Ethereum e assim criar projetos funcionais aplicando os conhecimentos adquiridos no curso</p>
-						</details>
-						<details>
-								<summary>Transparência no conteúdo</summary>
-								<p>Queremos que nossos alunos saiam do curso detendo um claro entendimento a cerca da tecnologia Blockchain e aptos a criar projetos em plataformas Ethereum.</p>
-						</details>		
-						<details>
-								<summary>Certificado no Blockchain do Ethereum</summary>
-								<p>Seu certificado de participação no curso ficará registrado no Blockchain do Ethereum de forma
-								inviolável garantindo autenticidade de emissão pela GoBlockchain e podendo ser consultado quando desejar.</p>
-						</details>	
-						<details>
-								<summary>Avaliação do curso registrada no Blockchain do Ethereum</summary>
-								<p>Voce deixará sua avaliação sobre o curso registrada para sempre no Blockchain do Ethereum, dessa forma esperamos estar semre em busca da melhor qualidade de aula para nossos alunos.</p>
-						</details>																
-					</div>
 				</div>
 			</div>
 		</section>
+
 		<!-- end feature1 -->
 
 		<!-- start courses -->
@@ -219,7 +277,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-						<h2 class="text-uppercase">Sobre o curso</h2>
+						<h2 class="text-uppercase">Incrições</h2>
 					</div>
 					<!-- <div class="col-md-4" data-wow-delay="1.00s">
 						<div class="panel panel-primary">
@@ -243,15 +301,15 @@
 						</div>
 					</div> -->
 					<div class="col-md-4" data-wow-delay="1.25s">
-						<div class="panel panel-danger">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="text-center text-uppercase">
-									Devs on Block I</h4>
+									Devs on Block I - São Paulo</h4>
 							</div>
-							<!-- <div class="panel-body text-center">
+							<div class="panel-body text-center">
 								<p class="lead">
-									<strong>-</strong></p>
-							</div> -->
+									<strong>17 e 18 /nov</strong></p>
+							</div>
 							<ul class="list-group list-group-flush text-center">
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Vamos descomplicar Blockchain</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Montando ambiente de desenvolvimento</li>
@@ -263,33 +321,32 @@
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Case</li>
 							</ul>
 							<div class="panel-footer">
-								<a class="btn btn-lg btn-block btn-info text-uppercase" href="#contact">Tenho Interesse</a>
+								<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Tenho interesse</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4" data-wow-delay="1.50s">
-						<div class="panel panel-success">
+					<!-- <div class="col-md-4" data-wow-delay="1.50s">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="text-center text-uppercase">Devs on Blocks II</h4>
 							</div>
-							<!-- <div class="panel-body text-center">
+						<div class="panel-body text-center">
 								<p class="lead">
 									<strong>-</strong></p>
-							</div> -->
+							</div>
 							<ul class="list-group list-group-flush text-center">
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Truffle framework</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Introdução ao IPFS</li>
-								<li class="list-group-item"><i class="icon-ok text-danger"></i>Criando um aplicação com Smart Contracts e IPFS</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Design Patterns para Smart Contracts</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>O que são Oracles</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Introdução ao HyperLedger</li>
 								<li class="list-group-item"><i class="icon-ok text-danger"></i>Case</li>
 							</ul>
 							<div class="panel-footer">
-								<a class="btn btn-lg btn-block btn-success text-uppercase" href="#contact">Tenho Interesse</a>
+								<button id="btnInscricao2" class="btn btn-success text-uppercase">Tenho interesse</button>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>	
@@ -299,7 +356,7 @@
 		<section id="contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+					<div class="col-md-6">
 						<h2 class="text-uppercase">Entre em contato</h2>
 						<p>Ficou com alguma dúvida, entre em contato conosco pelo formulário a seguir. </p>
 						<address>
@@ -308,28 +365,12 @@
 							<p><i class="fa fa-envelope-o"></i> goblockchain@gmail.com</p>
 						</address>
 					</div>
-					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="contact-form">
-							<form action="https://formspree.io/fale.henrique@gmail.com"
-							method="POST">
-								<div class="col-md-6">
-									<input type="text" name="name" class="form-control" placeholder="Name">
-								</div>
-								<div class="col-md-6">
-									<input type="email" name="_replyto" class="form-control" placeholder="Email">
-								</div>
-								<!-- <div class="col-md-12">
-									<input type="text" class="form-control" placeholder="Subject">
-								</div> -->
-								<div class="col-md-12">
-									<textarea class="form-control" name="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="col-md-12">
-									<input type="submit" value="Enviar">
-								</div>
-							</form>
-						</div>
-					</div>
+
+					<div>
+						<a href="https://goo.gl/txQv36" name="btnAula" target="_blank" class="btn btn-success text-uppercase">Quero dar aula</a>
+						<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Tenho interesse</a>
+					</div>	
+
 				</div>
 			</div>
 		</section>
@@ -345,14 +386,15 @@
 		</footer>
 		<!-- end footer -->
 
-		
 		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap/popper.min.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+
+		<!-- <script src="js/bootstrap.min.js"></script> -->
 		<script src="js/wow.min.js"></script>
 		<script src="js/jquery.singlePageNav.min.js"></script>
 		<script src="js/custom.js"></script>
-		<!-- <script src="js/TweenMax.min.js"></script> -->
-		<!-- <script src="js/animated.js"></script> -->
+
 
 	
 	  <!-- scripts -->
