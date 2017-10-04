@@ -1,6 +1,8 @@
 **GoBlockchain**
 ----------
-***A escola e o conteúdo está em fase de desenvolvimento na versão beta. Talvez algumas coisas aqui escritas, não sejam válidas.***
+www.goblockchain.io
+
+***A escola e o conteúdo está em fase de desenvolvimento na versão beta. Talvez algumas coisas aqui escritas ainda não sejam válidas.***
 
 A GoBlockchain é uma escola totalmente inovadora onde você aluno, professor e stakeholders irão administrar através de um conselho que terá que entrar em um consenso para as tomadas de decisões. Seguindo a onda das criptomoedas como Bitcoin e Ether, aproveitando de todas as vantagens da arquitetura blockchain, decidimos criar uma escola na qual você vai aprender tudo sobre blockchain com confiança, segurança, transparência e o melhor, descentralizado e distribuído. Aproveitando dos smart contracts, tudo poderá ser registrado na rede e garantir que todo o combinado entre aluno x professor e GoBlockchain será cumprido além das decisões do conselho. 
 
