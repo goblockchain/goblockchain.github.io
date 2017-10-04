@@ -1,5 +1,4 @@
 **GoBlockchain**
-============
 ----------
 ***A escola e o conteúdo está em fase de desenvolvimento na versão beta. Talvez algumas coisas aqui escritas, não sejam válidas.***
 
@@ -11,7 +10,6 @@ A GoBlockchain é uma escola totalmente inovadora onde você aluno, professor e 
 
 
 Por que?
----------
 ----------
 Entendemos que a educação não deve ser restrita e que não deve sempre ter uma empresa por trás lucrando sobre vontade de aprender das pessoas. Mais importante do que lucrar, queremos deixar nossa pequena parcela de contribuição para um mundo melhor
  
@@ -33,7 +31,7 @@ Como funciona?
 Nós ajudamos a conectar alunos a qualquer pessoa que entende estar apto a ensinar sobre o blockchain e suas aplicações. Toda a conexão entre as duas partes é registrada na rede ethereum, garantindo a segurança de ambas as partes. Esse registro é feito via smart contract que é um contrato virtual registrado no blockchain. O contrato é personalizado conforme cada necessidade. Nos nossos contratos, para que o tutor consiga receber o seu pagamento, terá que cumprir todas as exigências desse contrato, caso contrário, o valor será estornado aos alunos. Toda a regra de contrato estará disponível no momento da contratação do serviço. 
 
 Diferenciais
-============
+------------
 
 **A escola feita por você**
 
