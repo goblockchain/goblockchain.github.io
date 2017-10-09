@@ -181,17 +181,20 @@ img
 #home
     {
     background-size: cover;
-    background-color: #f2f2f7;
+    background-color: #f2f2f7;        
+    /* background-image: url(../images/distributed_1.jpg);       
     /* margin-top: 70px; */
-    text-align: center;
-    width: 100%;
-    }
+    /* width: 100%;     */
+
+    /* background-image: url(../images/distributed_1.jpg);     */
+        
+}
+
 #home .container
 {
-    background-color: #f2f2f7;    
     padding-top: 140px;
     padding-bottom: 40px;
-
+    text-align: center;
 }
 #home p
     {
