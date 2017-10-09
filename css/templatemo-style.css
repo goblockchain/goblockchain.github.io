@@ -240,8 +240,14 @@ img
     margin-top: 20px;
 }
 
-a[name="btnAula"] a[name="btnAula"]:hover{
+a[name="btnAula"]{
     background-color: #25C625;
+    border-color: #25C625;
+    box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);    
+}
+
+a[name="btnAula"]:hover{
+    background-color: rgb(43, 139, 43);
     border-color: #25C625;
     box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);    
 }
@@ -268,7 +274,7 @@ border-color: rgb(179, 51, 0);
     }
 #why h2
 {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }     
 #why .fa
     {
@@ -279,6 +285,14 @@ border-color: rgb(179, 51, 0);
     {
         font-size: 20px;
     }
+
+#why h4
+{
+    padding-bottom: 15px;
+    text-align: center;
+}
+    
+
 #why p
 {
     padding-top: 10px;
@@ -369,7 +383,7 @@ padding-bottom: 30px;
 #feature1 h2
 {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }    
 
 #feature1 p
@@ -380,6 +394,11 @@ padding-bottom: 30px;
     {
         float: left;
     }
+#feature1 h4
+{
+    padding-bottom: 15px;
+    text-align: center;
+}
 #feature1 .fa
     {
         background: #28a7e9;
