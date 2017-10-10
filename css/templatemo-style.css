@@ -267,11 +267,12 @@ border-color: rgb(179, 51, 0);
 
 /* start why */
 #why
-    {
-        background-color: #f2f2f7;
-        padding-top: 30px;
-        text-align: center;
-    }
+{
+    background-color: #f2f2f7;
+    padding-top: 30px;
+    text-align: center;
+}
+
 #why h2
 {
     padding-bottom: 15px;
