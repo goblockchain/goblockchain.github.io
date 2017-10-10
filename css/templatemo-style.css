@@ -242,7 +242,8 @@ img
 a[name="btnAula"]{
     background-color: #25C625;
     border-color: #25C625;
-    box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);    
+    box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);  
+    margin-right: 10px;  
 }
 
 a[name="btnAula"]:hover{
@@ -257,10 +258,11 @@ a[name="btnInscricao"]{
     box-shadow: 0 0 24px 5px rgba(255, 73, 10, 0.4);    
 }
 
-a[name="btnInscricao"]:hover {
-background-color: rgb(179, 51, 0);
-border-color: rgb(179, 51, 0);
+a[name="btnInscricao"]:hover, a[name="btnInscricao"]:active, a[name="btnInscricao"]:focus{
+    background-color: rgb(179, 51, 0);
+    border-color: rgb(179, 51, 0);
 }
+
 
 /* end home */
 
@@ -523,8 +525,6 @@ padding-bottom: 30px;
     }
 #contact address .fa
     {
-        background: rgb(0, 116, 158);
-        border-radius: 50%;
         width: 40px;
         height: 40px;
         line-height: 40px;
@@ -567,6 +567,10 @@ padding-bottom: 30px;
     border: none;        
     text-align: center;
     margin-top: 60px;
+}
+
+#contact .fa-2 {
+    font-size: 2em;
 }
 
 /* end contact */
