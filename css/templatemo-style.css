@@ -177,6 +177,8 @@ img
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 /* end navigation */
 
+
+
 /* start home */       
 #home {
     background: #fff url(../images/distributed_2.jpg) no-repeat center bottom;
@@ -185,9 +187,8 @@ img
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 100%;
-    /* min-height: 700px; */
-    display: table;
+    /* height: 100%;
+    display: table; */
     position: relative;
     text-align: center;
     background-position: 0px 150px;       
@@ -197,8 +198,6 @@ img
 #home .container
 {
     background-color: rgba(248, 246, 246, 0.80);
-    /* background-image: repeating-radial-gradient(ellipse closest-corner at center center, rgba(248, 246, 246, 0.75) 0%, rgba(254, 254, 255, 0.75) 1%); */
-
     width: 100%;
     height: 100%;    
     padding-top: 140px;
@@ -268,7 +267,7 @@ border-color: rgb(179, 51, 0);
 /* start why */
 #why
 {
-    background-color: #f2f2f7;
+    background-color: #f2f2f7;;
     padding-top: 30px;
     text-align: center;
 }
@@ -346,8 +345,9 @@ padding-bottom: 30px;
 /* start feature */
 #feature
     {
-        background: #f8f8f8;
+        background: #ffffff;
         padding-top: 30px;
+        padding-bottom: 10px;
     }
 #feature h2
 {
