@@ -177,7 +177,16 @@ img
 .navbar-default .navbar-toggle:focus { background-color: transparent }
 /* end navigation */
 
-
+/*google translate*/
+.goog-te-menu-frame {
+    max-width:100% !important;
+    }
+.goog-te-menu2 {
+    max-width: 100% !important;
+    overflow: scroll !important;
+    box-sizing:border-box !important;
+    height:auto !important;
+}
 
 /* start home */       
 #home {
@@ -245,6 +254,7 @@ img
     text-align: center;
     margin-top: 20px;
 }
+
 
 a[name="btnAula"]{
     background-color: #25C625;
