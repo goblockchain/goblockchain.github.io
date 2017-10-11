@@ -263,6 +263,9 @@ a[name="btnInscricao"]:hover, a[name="btnInscricao"]:active, a[name="btnInscrica
     border-color: rgb(179, 51, 0);
 }
 
+.panel-heading, .panel-default p {
+    margin-bottom: -2px;
+}
 
 /* end home */
 
