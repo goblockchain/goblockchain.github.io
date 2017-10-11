@@ -194,12 +194,19 @@ img
     background-position: 0px 150px;       
 }
 
-
-#home .container
+#home .containerShadow
 {
     background-color: rgba(248, 246, 246, 0.80);
     width: 100%;
     height: 100%;    
+
+}
+
+#home .container
+{
+    /* background-color: rgba(248, 246, 246, 0.80); */
+    /* width: 100%; */
+    /* height: 100%;     */
     padding-top: 140px;
     padding-bottom: 40px;
     text-align: center;
@@ -265,6 +272,10 @@ a[name="btnInscricao"]:hover, a[name="btnInscricao"]:active, a[name="btnInscrica
 
 .panel-heading, .panel-default p {
     margin-bottom: -2px;
+}
+
+div[id="google_translate_element"]{
+    margin-top: 10px;
 }
 
 /* end home */
