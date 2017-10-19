@@ -293,7 +293,7 @@ div[id="google_translate_element"]{
 /* start why */
 #why
 {
-    background-color: #f2f2f7;;
+    background-color: #FFFFFF;
     padding-top: 30px;
     text-align: center;
 }
@@ -405,7 +405,7 @@ padding-bottom: 30px;
 #feature1
     {
         padding-top: 30px;
-        background-color: #ffffff;
+        background-color:#f2f2f7;
     }
 #feature1 h2
 {
