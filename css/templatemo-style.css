@@ -269,6 +269,21 @@ a[name="btnAula"]:hover{
     box-shadow: 0 0 24px 5px rgba(45, 255, 9, 0.40);    
 }
 
+a[name="btnContribuir"]{
+    background-color: #1779bf;
+    border-color: #1779bf;
+    box-shadow: 0 0 24px 5px rgba(37, 117, 236, 0.952);  
+    margin-right: 10px;  
+}
+
+a[name="btnContribuir"]:hover{
+    background-color: #0d66a5;
+    border-color: #0d66a5;
+    box-shadow: 0 0 24px 5px rgba(37, 117, 236, 0.952);   
+}
+
+
+
 a[name="btnInscricao"]{
     background-color: #ff500a;
     border-color: #ff500a;
