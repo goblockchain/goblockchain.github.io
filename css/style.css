@@ -115,12 +115,12 @@ img::-moz-selection{color:#fff;background:0 0}
 .post-level-2 p {font-size:22px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
 .post-level-3 {background:#FF3D00; padding:9px 15px 29px; color:#fff; text-align:center; font-weight:800; width:70%; float:left}
 .post-level-3 p {font-size:22px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
-.post-cash {background:#FFA700; padding:15.5px; color:#fff;}
+.post-cash {background:#FFA700; padding:23.5px 15px; color:#fff;}
 .post-cash h2 {font-size:42px;}
 .post-cash-2 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:60%; float:left}
-.post-cash-2 p {font-size:15px!important; line-height: 0.85;margin-bottom: 0; font-weight:400;}
-.post-cash-2 h3 {font-size:18px; margin-top: 10px;margin-bottom: 3px;}
-.post-cash-3 {background:#FFA700; padding:10px 15px; color:#fff; text-align:center; font-weight:800; width:40%; float:left; min-height: 114px;}
+.post-cash-2 p {font-size:15px; line-height: 0.85;margin-bottom: 0; font-weight:400;}
+.post-cash-2 h3 {font-size:18px; margin-top: 0px;margin-bottom: 3px;}
+.post-cash-3 {background:#FFA700; padding:18.5px 15px; color:#fff; text-align:center; font-weight:800; width:40%; float:left; min-height: 131px;}
 .post-cash-3 p {font-size:15px!important; line-height: 1.3;margin-bottom: 0; font-weight:400;margin-top: 10px;}
 .post-cash-3 h3 {font-size:14px; margin-top: 8px; margin-bottom: 7px;}
 .btn-cursos {font-weight: 800;text-transform: uppercase;color: #fff;border-bottom: 2px solid #00AEFF;}
