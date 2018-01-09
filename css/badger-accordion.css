@@ -1,0 +1,89 @@
+
+.badger-accordion__trigger {
+    align-content: space-between;
+    align-items: center;
+    background-color:#fff;
+    border: 0;
+    border-radius: 0px;
+    color: #009EE8;
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 1;
+    padding: 20px;
+    text-align: left;
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+	border: 2px solid #009EE8;
+	
+}
+.badger-accordion__trigger-title {
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+	width: 80%;
+}
+.badger-accordion__trigger-title:hover {
+    color:#fff;
+}
+.badger-accordion__trigger-icon {
+    display: block;
+    height: 40px;
+    margin-left: auto;
+    position: relative;
+    transition: all ease-in-out 0.2s;
+    width: 40px;
+}
+.badger-accordion__trigger-icon:before {
+    left: 1px;
+    transform: rotate(45deg) translate3d(8px, 22px, 0);
+    transform-origin: 100%;
+}
+.badger-accordion__trigger-icon:after {
+    transform: rotate(-45deg) translate3d(-8px, 22px, 0);
+    right: 1px;
+    transform-origin: 0;
+}
+.badger-accordion__trigger-icon:after, .badger-accordion__trigger-icon:before {
+    background-color:#009EE8;
+    content: "";
+    height: 3px;
+    position: absolute;
+    top: 10px;
+    transition: all ease-in-out 0.13333s;
+    width: 30px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.badger-accordion--initalised .badger-accordion__panel {
+    transition: all ease-in-out 0.2s;
+}
+.badger-accordion__panel.is-hidden {
+    max-height: 0 !important;
+}
+.badger-accordion__panel {
+    background-color: #fafafa;
+    position: relative;
+}
+.badger-accordion__panel {
+    max-height: 0;
+    overflow: hidden;
+}
+.badger-accordion__panel-inner {
+    padding: 5px 20px;
+}
+.badger-accordion__trigger:focus{
+    background-color: #009EE8;
+	color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.badger-accordion__trigger[aria-expanded=true] .badger-accordion__trigger-icon:before {
+    transform: rotate(45deg) translate3d(13px, 14px, 0); background-color: #fff;
+}
+.badger-accordion__trigger[aria-expanded=true] .badger-accordion__trigger-icon:after {
+    transform: rotate(-45deg) translate3d(-13px, 14px, 0); background-color: #fff;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}

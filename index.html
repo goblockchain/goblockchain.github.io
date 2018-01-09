@@ -1,570 +1,641 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt_BR">
 
 <head>
-	<!--
-    	Boxer Template
-    	http://www.templatemo.com/tm-446-boxer
-    	-->
-	<meta charset="utf-8">
-	<title>GoBlockchain - Vamos ensinar o que criamos.</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
-	<meta name="keywords" content="blockchain,course,curso,bitcoin,ethereum,DLT,descentralizado,cursos,pagamento,dinheiro,Ethereum,confiança,transparência,segurança,curso r,curso bitcoin,tecnologia blockchain,plataforma de ensino,curso blockchain,curso professor,curso de bitcoin,o que e blockchain,plataforma de cursos,quero curso,curso aprender,cursos para aprender,o que é o blockchain,curso de quê,curso criar,blockchain curso,plataforma cursos,curso de de,curso plataforma,blockchain bancos,tecnologia bitcoin,plataforma para cursos,contratos inteligentes blockchain,curso aula,
-	bitcoin,blockchain bitcoin,o que é blockchain,carteira blockchain,blockchain brasil,ethereum,blockchain ethereum,carteira bitcoin blockchain,carteira bitcoin,bitcoins,mercado bitcoin,blockchain info,foxbit,block,coinbase,blockchain login,blockchain como funciona,tecnologia blockchain,comprar bitcoin,litecoin blockchain,litecoin,curso blockchain,criptomoedas,ibm blockchain,blockchain revolution">
-	<meta name="description" content="Plataforma de ensino descentralizada para Blockchain, venha aprender a criar projetos descentralizados em uma arquitetura distribuída. ">
-	<meta name="author" content="GoBlockchain">
-	
-	<meta name="generator" content="GoBlockchain" />
-	<meta name="robots" content="index,courses" />
-	<meta property='og:title' content='GoBlockchain, aprendendo, contruindo e ensinando' />
-	<meta property='og:description' content='Venha aprender a criar projetos descentralizados em uma arquitetura distribuída. Queremos contribuir com a evolução da tecnologia, disseminação do conhecimento de forma clara e acessível.' />
 
-	<meta property='og:url' content='http://goblockchain.io/' />
-	<meta property="og:image" content="http://goblockchain.io/images/logo_goblockchain_face.jpg">
-	<meta property="og:image:type" content="image/jpeg">
-	<meta property="og:image:width" content="800">
-	<meta property="og:image:height" content="600">	
-	<meta property='og:type' content='website' />
-	<meta property='og:site_name' content='GoBlockchain, aprendendo, contruindo e ensinando' />	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Go Blockchain">
+	<meta property="og:description" content="Ensinando e construindo uma plataforma de ensino descentralizada">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://goblockchain.io/">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="images/icone.png">
 
-	<!-- favicon -->
-	<link rel="icon" href="images/favicon.ico">
+    <title>Go Blockchain | Ensinando e construindo uma plataforma de ensino descentralizada</title>
+        
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,700,700i,800,800i" rel="stylesheet">
 
-	<link rel="stylesheet" media="screen" href="css/style.css">
-	<!-- animate css -->
-	<link rel="stylesheet" href="css/animate.min.css">
-	<!-- bootstrap css -->
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/badger-accordion.css">
+    
+    <style media="screen">
+        .badger-accordion__panel {
+            max-height: 0;
+            overflow: hidden;
+        }
 
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-	<!-- font-awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+        .badger-accordion__panel.is-active {
+            max-height: 75vh;
+        }
 
-	<!-- custom css -->
-	<link rel="stylesheet" href="css/templatemo-style.css">
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
+        .badger-accordion__panel.is-hidden {
+            max-height: 0 !important;
+        }
+
+        .badger-accordion--initalised .badger-accordion__panel {
+            transition: all ease-in-out 0.2s; margin-bottom: 10px; background: #00AEFF;color: #fff;
+        }
+    </style>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+	<script src="js/all.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments) };
-		gtag('js', new Date());
+    document.addEventListener('DOMContentLoaded', function(){
 
-		gtag('config', 'UA-107225502-1');
-		gtag('send', 'pageview');
-	</script>
+        Typed.new("#typed", {
+            stringsElement: document.getElementById('typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to null for infinite loop
+            loopCount: null,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        var resetElement = document.querySelector('.reset');
+        if(resetElement) {
+            resetElement.addEventListener('click', function() {
+                document.getElementById('typed')._typed.reset();
+            });
+        }
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+    
 </head>
 
-<body>
-	<!-- start preloader -->
-	<div class="preloader">
-		<div class="sk-spinner sk-spinner-rotating-plane"></div>
-	</div>
-	<!-- end preloader -->
-	<!-- start navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
-					
-		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon icon-bar"></span>
-						<span class="icon icon-bar"></span>
-						<span class="icon icon-bar"></span>
-					</button>
-				<a href="#home" class="navbar-brand">
-						<img src="images/logo_goblockchain.png" class="img-responsive" alt="GoBlockchain">
-					</a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right text-uppercase">
-					<li><a href="#feature">Quem somos</a></li>
-					<li><a href="#courses">Cursos</a></li>
-					<li><a href="#why">POR QUê ?</a></li>
-					<li><a href="#feature1">Diferencial</a></li>
-					<li><a href="#contact">Contato</a></li>				
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- end navigation -->
-	<!-- start home -->
-	<section id="home">
-		<div class="containerShadow">
-			<div class="container">
-				<img src="images/logo_goblockchain_full.png" alt="" class="logo wow  fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-				<h4 class="text-uppercase wow fadeInUp" data-wow-delay="0.1s">
-					CONFIANÇA, SEGURANÇA, transparência, Descentralizada, Distribuída
-				</h4>
-				<div class="row">
-					<div class="col-md-1"></div>
-					<div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
-						<h1 class="text-upper">Ensinando e construindo uma plataforma de ensino descentralizada.</h1>
-					</div>
-				</div>
-				<div>
-					<a href="#courses" name="btnInscricao" class="btn btn-success text-uppercase">Quero aprender</a>
-					<a href="https://goo.gl/txQv36" name="btnAula" target="_blank" class="btn btn-success text-uppercase">Quero dar aula</a>
-					<a href="https://trello.com/b/mnVqJvV8/goblockchain" name="btnContribuir" target="_blank" class="btn btn-success text-uppercase">Quero contribuir</a>
-				</div>						
-				<div class="row">
-					<div class="col-md-12">
-						<a class="fa fa-github fa-2" href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="_blank"></a>
-						<!-- <h4><a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="_blank">Saiba mais</a> </h4> -->
-					</div>
-				</div>
-				<!-- 			<div id="particles-js">
-					</div> -->
-			</div>
-		</div>			
-	</section>
-	<!-- end home -->
-	<!-- start how are? -->
-	<section id="feature">
-		<div class="container wow fadeInLeft" data-wow-delay="0.6s">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-uppercase">Quem somos</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-					<p>
-							A <strong>GoBlockchain</strong> é uma startup que nasceu para contribuir com esse incrível universo da Tecnologia Blockchain.
-							Inicialmente queriamos ser apenas uma grupo de pessoas para realizar aulas focadas em negócios e desenvolvimento. Mas
-							pensamos... "falamos e acreditamos que Blockchain é incrível então porque não utilizar na nossa startup e assim criar
-							uma plataforma de ensino descentralizada e transparente?!". Então decidimos ensinar e utilizar Blockchain aqui mesmo. Pensamos que
-							dessa forma vamos conseguir ensinar melhor e colaborar com a evolução do Blockchain.
-						</p>
-						<p>
-							Dessa maneira a <strong>GoBlockchain</strong> não tem um "CEO", centralizador das decisões, e sim participantes que
-							realizam votações para definir o caminho da plataforma. Os participantes são os fundadores e colabordores(professores, conselheiros e alunos).
-						</p>
-						<p>
-							Além disso vamos ter outras funcionalidades no Blockchain. Ao lado apresentamos as atividades que imagimos que fazem sentido
-							e que vão ser apresentadas durante os curso.							
-						</p>
-				</div>
+<body id="page-top">
 
-				<div class="col-md-6 mb-4" id="accordionWho" role="tablist" aria-multiselectable="true">
-					<div class="card">
-						<div class="card-header" role="tab" id="headingRepu">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseRepu" aria-expanded="false" aria-controls="collapseRepu">Reputação</a>
-							</h5>
-						</div>
-						<div id="collapseRepu" class="collapse show" role="tabpanel" aria-labelledby="headingRepu">
-							<div class="card-body">
-								As aulas avaliadas pelos alunos serão armazenadas no Blockchain gerando uma reputação à prova de fraudes
-							</div>
-						</div>
-					</div>						
-					<div class="card">
-						<div class="card-header" role="tab" id="headingTwo1">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">Saldo da conta aberto
-									</a>
-							</h5>
-						</div>
-						<div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1">
-							<div class="card-body">
-								O saldo da wallet da GoBlockchain é aberto e visível a todos.
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" role="tab" id="headingThree1">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">Gastos transparentes</a>
-							</h5>
-						</div>
-						<div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1">
-							<div class="card-body">
-								Assim como na wallet, seremos transparentes nos gastos especificando onde foi utilizado cada valor.
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" role="tab" id="headingOne1">
-							<h5 class="mb-0">
-								<a data-toggle="collapse" data-parent="#accordionWho" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">Certificado</a>
-							</h5>
-						</div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top header">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i style="font-size: .8em;" class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://goblockchain.io"><img src="images/logo_goblockchain.png" alt="Logotipo Go Blockchain" title="Logotipo Go Blockchain"></a>
+            </div>
 
-						<div id="collapseOne1" class="collapse" role="tabpanel" aria-labelledby="headingOne1">
-							<div class="card-body">
-								O certificado de conclusão de curso será registrado no blockchain, garantindo a veracidade do mesmo.
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" role="tab" id="headingVot">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseVot" aria-expanded="false" aria-controls="collapseVot">Votação</a>
-							</h5>
-						</div>
-						<div id="collapseVot" class="collapse" role="tabpanel" aria-labelledby="headingVot">
-							<div class="card-body">
-								As decisões da <strong>GoBlockchain</strong> serão realizadas através de votação e esses votos estarão registrados no Blockchain.
-							</div>
-						</div>
-					</div>										
-					<div class="card">
-						<div class="card-header" role="tab" id="headingFour1">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseFour1" aria-expanded="false" aria-controls="collapseFour1">Pré requisitos para confirmação do curso</a>
-							</h5>
-						</div>
-						<div id="collapseFour1" class="collapse" role="tabpanel" aria-labelledby="headingFour1">
-							<div class="card-body">
-								A turma será realizada somente depois que todos os pré requisitos sejam satisfeitos. Por exemplo: quantidade mínina de alunos.
-							</div>
-						</div>
-					</div>					
-					<div class="card">
-						<div class="card-header" role="tab" id="headingFive1">
-							<h5 class="mb-0">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordionWho" href="#collapseFive1" aria-expanded="false" aria-controls="collapseFive1">Pagamento</a>
-							</h5>
-						</div>
-						<div id="collapseFive1" class="collapse" role="tabpanel" aria-labelledby="headingFive1">
-							<div class="card-body">
-								Após a conclusão do curso os alunos avaliarão a qualidade da aula. O professor nao receberá seu pagamento integral se o resultado estiver abaixo do mínimo pré-definido. Isso é uma garantia que o preocupará em atender às expectativas de todos.
-							</div>
-						</div>
-					</div>																
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-right" style="padding: 15px 0 0 20px;">
+                    <li style="float:left;">
+                        <a style="color:#2C254E;background: #fff;font-weight: 600" href="http://goblockchain.io">PT</a>
+                    </li>
+                    <li style="float:left">
+                        <a href="http://goblockchain.io/en">EN</a>
+                    </li>
+                    <li style="float:left">
+                        <a href="http://goblockchain.io/sp">SP</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="padding: 10px 0 0 5px;">
+                    <li>
+                        <a href="#quem-somos">QUEM SOMOS</a>
+                    </li>
+                    <li>
+                        <a href="#cursos">CURSOS</a>
+                    </li>
+                    <li>
+                        <a href="#porque">POR QUE?</a>
+                    </li>
+                    <li>
+                        <a href="#diferencial">DIFERENCIAL</a>
+                    </li>
+                    <li>
+                        <a href="#time">TIME</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <div class="parallax-container">
+    <div class="parallax"><img src="images/bg-color.jpg" style="display: block; transform: translate3d(-50%, 484px, 0px);"></div>
+    <div class="container top">
+    	<div class="row">
+			<div class="col-md-12 text-center">
+            	<div class="section-heading" style="color:#fff;">
+                	<div class="type-wrap" style="font-size:32px;">
+            			<div id="typed-strings">
+                			<h2>CONFIANÇA</h2>
+                			<h2>SEGURANÇA</h2>
+                			<h2>TRANSPARÊNCIA</h2>
+                			<h2>DESCENTRALIZADA</h2>
+                			<h2>DISTRIBUÍDA</h2>
+            			</div>
+            			<span id="typed" style="white-space:pre;"></span>
+        			</div>
+                </div>
+                <h1>Ensinando e construindo uma plataforma de ensino descentralizada</h1>
+            </div>
+            
+            <div class=" col-md-2-1"></div>
+            <div class=" col-md-2-1 text-center">
+            	<p><a href="#cursos" class="btn btn-primary">QUERO APRENDER</a></p>
+            </div>
+            <div class=" col-md-2-1 text-center">
+            	<p><a href="https://goo.gl/txQv36" target="new" class="btn btn-success">QUERO DAR AULA</a></p>
+            </div>
+            <div class=" col-md-2-1 text-center">
+            	<p><a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="new" class="btn btn-info">QUERO CONTRIBUIR</a></p>
+            </div>
+        </div>   
+    </div>
+  </div>
+  
+  <section id="quem-somos">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 text-center mb5">
+            	<h2>QUEM SOMOS</h2>
+                <img src="svg/line.svg" height="18">
+            </div>
+            <div class="col-md-6">
+            	<p>A <strong>GoBlockchain</strong> é uma startup que nasceu para contribuir com esse incrível universo da Tecnologia Blockchain. Inicialmente queriamos ser apenas uma grupo de pessoas para realizar aulas focadas em negócios e desenvolvimento. Mas pensamos… “falamos e acreditamos que Blockchain é incrível então porque não utilizar na nossa startup e assim criar uma plataforma de ensino descentralizada e transparente?!”. Então decidimos ensinar e utilizar Blockchain aqui mesmo. Pensamos que dessa forma vamos conseguir ensinar melhor e colaborar com a evolução do Blockchain.</p><p>Dessa maneira a <strong>GoBlockchain</strong> não tem um “CEO”, centralizador das decisões, e sim participantes que realizam votações para definir o caminho da plataforma. Os participantes são os fundadores e colabordores(professores, conselheiros e alunos).</p><p>Além disso vamos ter outras funcionalidades no Blockchain. Ao lado apresentamos as atividades que imagimos que fazem sentido e que vão ser apresentadas durante os curso.</p>
+            </div>
+            <div class="col-md-6">
+            	<dl class="badger-accordion js-badger-accordion">
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Reputação
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel open">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>As aulas avaliadas pelos alunos serão armazenadas no Blockchain gerando uma reputação à prova de fraudes.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Saldo da conta aberto
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>O saldo da wallet da GoBlockchain é aberto e visível a todos.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Gastos transparentes
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>Assim como na wallet, seremos transparentes nos gastos especificando onde foi utilizado cada valor.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                           Certificado
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>O certificado de conclusão de curso será registrado no blockchain, garantindo a veracidade do mesmo.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Votação
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>As decisões da <strong>GoBlockchain</strong> serão realizadas através de votação e esses votos estarão registrados no Blockchain.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Pré requisitos para confirmação do curso
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>A turma será realizada somente depois que todos os pré requisitos sejam satisfeitos. Por exemplo: quantidade mínina de alunos.</p>
+                    </div>
+                </dd>
+                <dt class="badger-accordion__header">
+                    <button class="badger-accordion__trigger js-badger-accordion-header">
+                        <div class="badger-accordion__trigger-title">
+                            Pagamento
+                        </div>
+                        <div class="badger-accordion__trigger-icon">
+                        </div>
+                    </button>
+                </dt>
+                <dd class="badger-accordion__panel js-badger-accordion-panel">
+                    <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                        <p>Após a conclusão do curso os alunos avaliarão a qualidade da aula. O professor nao receberá seu pagamento integral se o resultado estiver abaixo do mínimo pré-definido. Isso é uma garantia que o preocupará em atender às expectativas de todos.</p>
+                    </div>
+                </dd>
+            </dl>
+            </div>
+        </div>
+    </div>
+  </section>
+
+    <section class="cursos" id="cursos">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb3">
+                	<h2>CURSOS</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-3 mt3">
+                	<div class="post-time">
+                    	<p>3<br><span style="font-size:12px; font-weight:400">horas</span></p>
+                    </div>
+                    <div class="post-level-1">
+                    	<p>básico</p>
+                    </div>    
+                	<div class="post-thumb">
+						<h2>18/01</h2>
+                        <h3>INTRODUÇÃO AO BLOCKCHAIN ONLINE (GREETER)</h3>
+                        <h4>(Link em breve)</h4>
+                    	<p class="mt5">com <a href="">Henrique Leite</a></p>
+                    	<div class="post-thumb-cat" style="background: url(images/submarca.png) center no-repeat; "></div>
+                    </div>
+                    <div class="post-cash text-center mb1">
+                    	<h2>GRÁTIS</h2>
+                    </div>    
+                    <a class="btn-cursos mb2" href="" target="_new">MAIS DETALHES</a>
+                </div>
+            	<div class="col-md-3 mt3">
+                	<div class="post-time">
+                    	<p>12<br><span style="font-size:12px; font-weight:400">horas</span></p>
+                    </div>
+                    <div class="post-level-2">
+                    	<p>médio</p>
+                    </div>    
+                	<div class="post-thumb">
+						<h2>27/01</h2>
+                        <h3>DESENVOLVIMENTO WEB E MOBILE COM ETHEREUM</h3>
+                        <h4>São Paulo<br>Rua Viradouro, 42<br>Itaim Bibi</h4>
+                    	<p class="mt2">com <a href="">Henrique Leite</a> e <a href="">Danilo Pantani</a></p>
+                    	<div class="post-thumb-cat" style="background: url(images/submarca.png) center no-repeat; "></div>
+                    </div>
+                    <div class="post-cash-2 mb1">
+                    	<p>Até o dia 10/01</p>
+                        <h3><a href="http://mpago.la/wjUd">R$ <span style="font-size:42px">490</span></a></h3>
+                    </div>
+                    <div class="post-cash-3 mb1">
+                    	<p>Até o dia 20/01</p>
+                        <h3 style="font-style:italic">R$ <span style="font-size:24px">590</span></h3>
+                    </div>     
+                    <a class="btn-cursos mb2" href="" target="_new">MAIS DETALHES</a>
+                </div>
+                <div class="col-md-3 mt3">
+                	<div class="post-time">
+                    	<p>12<br><span style="font-size:12px; font-weight:400">horas</span></p>
+                    </div>
+                    <div class="post-level-2">
+                    	<p>médio</p>
+                    </div>    
+                	<div class="post-thumb">
+						<h2>01 e 03/02</h2>
+                        <h3>DESENVOLVIMENTO WEB</h3>
+                        <h4>São Paulo<br>Rua Major Quedinho, 111<br>Centro</h4>
+                    	<p class="mt4">com <a href="">Henrique Leite</a></p>
+                    	<div class="post-thumb-cat" style="background: url(images/submarca.png) center no-repeat; "></div>
+                    </div>
+                    <div class="post-cash-2 mb1">
+                        <p>Até o dia 24/01</p>
+                        <h3><a href="http://mpago.la/7ivh">R$ <span style="font-size:42px">415</span></a></h3>
+                    </div>
+                    <div class="post-cash-3 mb1">
+                    	<p>Até o dia 03/02</p>
+                        <h3 style="font-style:italic">R$ <span style="font-size:24px">490</span></h3>
+                    </div>   
+                    <a class="btn-cursos mb2" href="" target="_new">MAIS DETALHES</a>
+                </div>
+                <div class="col-md-3 mt3">
+                	<div class="post-time">
+                    	<p>12<br><span style="font-size:12px; font-weight:400">horas</span></p>
+                    </div>
+                    <div class="post-level-3">
+                    	<p>avançado</p>
+                    </div>    
+                	<div class="post-thumb">
+						<h2>23 e 24/02</h2>
+                        <h3>SMART CONTRACTS, IPFS E ORACLES</h3>
+                        <h4>São Paulo<br>Rua Major Quedinho, 111<br>Centro</h4>
+                    	<p class="mt2">com <a href="">Henrique Leite</a></p>
+                    	<div class="post-thumb-cat" style="background: url(images/submarca.png) center no-repeat; "></div>
+                    </div>
+                    <div class="post-cash-2 mb1">
+                    	<p>Até o dia 10/02</p>
+                        <h3><a href="http://mpago.la/D4Lp">R$ <span style="font-size:42px">490</span></a></h3>
+                    </div>
+                    <div class="post-cash-3 mb1">
+                    	<p>Até o dia 23/02</p>
+                        <h3 style="font-style:italic">R$ <span style="font-size:24px">590</span></h3>
+                    </div>  
+                    <a class="btn-cursos mb2" href="" target="_new">MAIS DETALHES</a>
+                </div>
+        	</div>
+        </div>
+    </section>
+    
+    <section id="porque" style="padding:80px 0 0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb2">
+                	<h2>POR QUÊ ?</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10 text-center mb4">
+                    <h3 style="font-weight:400">Incentivamos livre concorrência e preços justos, proporcionando a escolha pelo melhor custo / benefício para os produtos e serviços relacionados ao Blockchain.</h3>
+                </div>
+                <div class="col-md-4 text-center mb4">
+                	<img src="svg/missao.svg" height="100">
+                    <h3>MISSÃO</h3>
+                	<p>Nossa missão é disseminar o conhecimento da tecnologia Blockchain para o maior número de pessoas possível ao redor do mundo</p>
+                </div>
+                <div class="col-md-4 text-center mb4">
+                	<img src="svg/visao.svg" height="100">
+                    <h3>VISÃO</h3>
+                	<p>Se tornar a maior plataforma global, descentralizada e distribuída para que mais pessoas consigam ter acesso ao conhecimento de Blockchain</p>
+                </div>
+                <div class="col-md-4 text-center mb4">
+                	<img src="svg/valores.svg" height="100">
+                    <h3>VALORES</h3>
+                	<p>Ética, colaboração e transparência</p>
+                </div>
+        	</div>
+     	</div>
+    </section>
+    
+    <section id="diferencial" style="background:#f6f6f6">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb5">
+                	<h2>NOSSO DIFERENCIAL</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10 text-center mb4">
+                    <h3 style="font-weight:400">Somos uma plataforma que nasceu para ser descentralizada e transparente.</h3>
+                </div>
+                <div class="col-md-6 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:20%; float:left; padding-right:30px;margin-top: 1.3em;">
+                        	<img src="svg/escola.svg" width="100%">
+                        </div>
+                    	<div style="width:77%; float:left;">
+                        <h3>A ESCOLA FEITA POR VOCÊ</h3>
+                        	<p>Sendo um parceiro ou colaborador da plataforma, você pode sugerir mudanças e melhorias que serão encaminhadas para a votação no conselho gestor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:20%; float:left; padding-right:30px;margin-top: 1.3em;">
+                        	<img src="svg/reputacao.svg" width="100%">
+                        </div>
+                    	<div style="width:77%; float:left;">
+                        <h3>REPUTAÇÃO DO TUTOR</h3>
+                        	<p>O aluno deixará sua avaliação sobre o curso registrada para sempre no Blockchain Ethereum. Dessa forma todos os instrutores e cursos terão suas avalições públicas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:20%; float:left; padding-right:30px;margin-top: 1.3em;">
+                        	<img src="svg/certificado.svg" width="100%">
+                        </div>
+                    	<div style="width:77%; float:left;">
+                        <h3>CERTIFICADO BLOCKCHAIN ETHEREUM</h3>
+                        	<p>Seu certificado de participação no curso ficará registrado no Blockchain Ethereum de forma inviolável, garantindo autenticidade de emissão pela GoBlockchain e acessível quando desejar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:20%; float:left; padding-right:30px;margin-top: 1.3em;">
+                        	<img src="svg/transparencia.svg" width="100%">
+                        </div>
+                    	<div style="width:77%; float:left;">
+                        <h3>TRANSPARÊNCIA</h3>
+                        	<p>A <strong>GoBlockchain</strong> manterá sua   aberta e transparente</p>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </section>
+    
+    <section class="cursos">
+    	<div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb5">
+                	<h2>CRONOGRAMA</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+    			<div class="col-md-12">
+    			<div class="Roadmap">
+					<span class="Roadmap__event-line"></span>
+					<ol class="Roadmap__events">
+						<li class="Roadmap__event"><span class="Roadmap__event-title">Q2 2017</span><span class="Roadmap__event-description">Idéia</span></li>
+						<li class="Roadmap__event"><span class="Roadmap__event-title">Q1 2018</span><span class="Roadmap__event-description">Saldo da conta aberto/Gastos transparentes</span></li>
+						<li class="Roadmap__event"><span class="Roadmap__event-title">Q1 2018</span><span class="Roadmap__event-description">Reputação transparente</span></li>
+						<li class="Roadmap__event"><span class="Roadmap__event-title">Q2 2018</span><span class="Roadmap__event-description">Certificado</span></li>
+						<li class="Roadmap__event"><span class="Roadmap__event-title">Q3 2018</span><span class="Roadmap__event-description">Pré requisitos para confirmação do curso</span></li>
+                        <li class="Roadmap__event"><span class="Roadmap__event-title">Q4 2018</span><span class="Roadmap__event-description">Liberação de pagamento</span></li>
+					</ol>
 				</div>
-
-				<!-- <div class="col-md-6 wow fadeInUp templatemo-box" data-wow-delay="0.3s"  id="accordion" role="tablist" aria-multiselectable="true">
-							<ul class="list-group">
-								<li class="list-group-item list-group-item-warning">Reputação da escola transparente</li>
-  						</div> -->
-
-			</div>
-		</div>
-	</section>
-	<!-- end feature -->
-
-	<!-- start courses -->
-	<section id="courses">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-					<h2 class="text-uppercase">Cursos</h2>
-				</div>
-				<div class="col-md-4" data-wow-delay="1.00s">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="text-center text-uppercase">
-								Go Devs - Introdução ao Blockchain Online(greeter)
-							</h4>
-							<p><h4>Link em breve</h4></p>
-							<p><h5>com <a href="https://www.linkedin.com/in/henrique-leite-2903/" target="_blank">Henrique Leite</a> </h5></p>
-						</div>
-						<div class="panel-body text-center">
-							<p class="lead">
-								<strong>18/01 - 19:00 às 22:00</strong></p>	
-								<p>#gocode #godevs #helloworld</strong></p>
-							</p>
-						</div>
-
-						<ul class="list-group list-group-flush text-center">
-							<li class="list-group-item">Conceito do <strong>Blockchain</strong></li>
-							<li class="list-group-item">Instalação do Ethereum <strong>Geth</strong></li>
-							<li class="list-group-item">Ambiente para desevolvimento</li>
-							<li class="list-group-item">Criação de uma <strong>rede privada</strong></li>
-							<li class="list-group-item"><strong>Smarts Contracts</strong> e <strong>Solidity</strong> com "Greeter"</li>
-							<li class="list-group-item">Como compilar e testar os contratos no <strong>Mist</strong></li>
-							<li class="list-group-item"><h4>Gratís</h4></li>
-						</ul>
-						<div class="panel-footer">
-							<a href="https://www.facebook.com/events/1669612133123342/" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero me inscrever</a>
-							<!--<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero aprender</a>-->
-						</div>
-					</div>
-				</div>				
-				<div class="col-md-4" data-wow-delay="1.25s">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="text-center text-uppercase">
-								Go Devs - Desenvolvimento Web e Mobile com Ethereum
-							</h4>
-							<p><h4>São Paulo - Rua Viradouro, 42 - Itaim Bibi</h4></p>
-							<p><h5>com <a href="https://www.linkedin.com/in/henrique-leite-2903/" target="_blank">Henrique Leite</a> e <a href="https://www.linkedin.com/in/dpantani" target="_blank">Danilo Pantani</a></h5></p>
-							<p><i><h5>"Talk is cheap. Show me the code."</h5></i></p>
-						</div>
-						<div class="panel-body text-center">
-							<p class="lead">
-								<strong>27/01 - 09:00 às 19:00</strong></p>	
-								<p>#semblabla #showmethecode #gocode</strong></p>
-							</p>
-						</div>
-						<ul class="list-group list-group-flush text-center">
-							<li class="list-group-item">Montar nosso ambiente com <strong>GETH</strong></li>
-							<li class="list-group-item">Como criar contratos no <strong>Solidity</strong></li>
-							<li class="list-group-item">Como compilar e testar os contratos no <strong>MIST</strong></li>
-							<li class="list-group-item">Como compilar e testar os contratos no <strong>Truffle</strong></li>
-							<li class="list-group-item">Criando nossa aplicação <strong>Web</strong> para testar nosso contrato</li>
-
-							<li class="list-group-item">Vamos falar sobre o <strong>Infura</strong> e o <strong>Framework OpenZeppelin</strong></li>
-							<li class="list-group-item">Configurando o ambiente no <strong>Android</strong></li>
-							<li class="list-group-item">Transacionando com <strong>Web3</strong></li>
-							<li class="list-group-item">Como interagir com Contratos no <strong>Android</strong></li>
-							<li class="list-group-item">Escutando <strong>Eventos</strong> do nosso contrato</li>
-							<li class="list-group-item">Como rodar o Geth client no <strong>Android/iOS</strong></li>
-
-							<li class="list-group-item"><h4>R$ 490,00 - Até o dia 10/01</h4></li>
-							<li class="list-group-item"><h5>R$ 590,00 - Até o dia 20/01</h5></li>
-						</ul>
-						<div class="panel-footer">
-							<a href="http://mpago.la/wjUd" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero me inscrever</a>
-							<!--<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero aprender</a>-->
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4" data-wow-delay="1.50s">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="text-center text-uppercase">Go Devs - Desenvolvimento Web</h4>
-							<p><h4>São Paulo - Rua Major Quedinho, 111</h4></p>
-							<p><h5>com <a href="https://www.linkedin.com/in/henrique-leite-2903/" target="_blank">Henrique Leite</a></h5></p>
-						</div>
-					<div class="panel-body text-center">
-							<p class="lead">
-								<strong>01 e 03 de fevereiro - 12 horas</strong>
-								<p>#vamoscriar #showmethecode #gocode #identidade</strong></p>
-							</p>	
-						</div>
-						<ul class="list-group list-group-flush text-center">
-							<li class="list-group-item"><strong>O que é Blockchain</strong>Arquitetura <strong>Ethereum</strong></li>
-							<li class="list-group-item">O que você precisa saber sobre a arquitetura <strong>Ethereum</strong></li>
-							<li class="list-group-item">Montar nosso ambiente com <strong>GETH</strong></li>
-							<li class="list-group-item">Conhecer o console do <strong>GETH</strong> e principais comandos</li>
-							<li class="list-group-item">Principais elementos do <strong>Solidity</strong></li>
-							<li class="list-group-item">Criando nosso contrato de identidade no <strong>Solidity</strong></li>
-							<li class="list-group-item">Como compilar e testar os contratos no <strong>MIST</strong></li>
-							<li class="list-group-item">Criando nossa aplicação <strong>Web</strong> para testar nosso contrato</li>
-							<li class="list-group-item">Exercicios</li>
-							<li class="list-group-item">Próximos passos</li>
-							<li class="list-group-item"><h4>R$ 415,00 - Até o dia 24/01</h4></li>
-							<li class="list-group-item"><h5>R$ 490,00 - Até o dia 03/02</h5></li>							
-						</ul>
-						<div class="panel-footer">
-							<a href="http://mpago.la/7ivh" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero me inscrever</a>
-							<!--<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero aprender</a>-->
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4" data-wow-delay="1.50s">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="text-center text-uppercase">Go Devs - Smart Contracts, IPFS e Oracles</h4>
-							<p><h4>São Paulo - Rua Major Quedinho, 111</h4></p>
-							<p><h5>com <a href="https://www.linkedin.com/in/henrique-leite-2903/" target="_blank">Henrique Leite</a></h5></p>							
-						</div>
-					<div class="panel-body text-center">
-							<p class="lead">
-								<strong>23 e 24 de fevereiro - 12 horas</strong>
-								<p>#IPFS #oracles #identidade</strong></p>
-							</p>	
-						</div>
-						<ul class="list-group list-group-flush text-center">
-							<li class="list-group-item">Apresentar resumo da aula anterior</li>
-							<li class="list-group-item">Truffle framework(testes, migrations e debug)</li>
-							<li class="list-group-item">Introdução ao IPFS</li>
-							<li class="list-group-item">Framework OpenZeppelin</li>
-							<li class="list-group-item">O que são Oracles e como utilizar</li>
-							<li class="list-group-item">Inserir OpenZeppelin e Oracles em nossos Smarts Contracts</li>
-							<li class="list-group-item">Exercicios</li>
-							<li class="list-group-item">Próximos passos</li>
-							<li class="list-group-item"><h4>R$ 490,00 - Até o dia 10/02</h4></li>
-							<li class="list-group-item"><h5>R$ 590,00 - Até o dia 23/02</h5></li>							
-						</ul>
-						<div class="panel-footer">
-							<a href="http://mpago.la/D4Lp" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero me inscrever</a>
-							<!--<a href="https://goo.gl/QvhABT" name="btnInscricao" target="_blank" class="btn btn-success text-uppercase">Quero aprender</a>-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end courses -->
-
-
-	<!-- start why -->
-	<section id="why">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 wow fadeInUp templatemo-box">
-					<h2 class="text-uppercase">Por quê ?</h2>
-				</div>
-				<h4>Incentivamos livre concorrência e preços justos,  proporcionando a escolha pelo melhor custo / benefício para os produtos e serviços relacionados ao Blockchain.</h4>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-					<i class="fa fa-smile-o"></i>
-					<h3 class="text-uppercase">Missão</h3>
-					<p>
-						Nossa missão é disseminar o conhecimento da tecnologia Blockchain para o maior número de pessoas possível ao redor do mundo.
-					</p>
-				</div>
-				<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-					<i class="fa fa-binoculars"></i>
-					<h3 class="text-uppercase">Visão</h3>
-					<p>Se tornar a maior plataforma global, descentralizada e distribuída para que mais pessoas consigam ter acesso ao conhecimento de Blockchain.</p>
-				</div>
-				<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
-					<i class="fa fa-diamond"></i>
-					<h3 class="text-uppercase">Valores</h3>
-					<p>
-						Ética, colaboração e transparência
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- end divider -->
-
-	<section id="feature1">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-uppercase wow fadeInLeft" data-wow-delay="0.6s">Nosso diferencial</h2>
-					<div class="row">
-						<div class="col-md-12">
-							<h4>Somos uma plataforma que nasceu para ser descentralizada e transparente.</h4>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.8s">
-							<img src="images/logo_goblockchain_full.png" class="img-responsive" alt="feature img">
-						</div>
-						<div class="col-md-6 bounceIn mb-4 wow fadeInLeft" data-wow-delay="0.10s" id="accordion" role="tablist" aria-multiselectable="true">
-							<div class="card">
-								<div class="card-header" role="tab" id="headingFour">
-									<h5 class="mb-0">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-											A escola feita por você
-										</a>
-									</h5>
-								</div>
-								<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-									<div class="card-body">
-										Sendo um parceiro ou colaborador da plataforma, você pode sugerir mudanças e melhorias que serão encaminhadas para a votação no conselho gestor.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header" role="tab" id="headingFive">
-									<h5 class="mb-0">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-											Certificado no Blockchain Ethereum
-										</a>
-									</h5>
-								</div>
-								<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
-									<div class="card-body">
-										Seu certificado de participação no curso ficará registrado no Blockchain Ethereum de forma inviolável, garantindo autenticidade de emissão pela <strong>GoBlockchain</strong> e acessível quando desejar.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header" role="tab" id="headingSix">
-									<h5 class="mb-0">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-											Reputação do tutor
-										</a>
-									</h5>
-								</div>
-								<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-									<div class="card-body">
-										O aluno deixará sua avaliação sobre o curso registrada para sempre no Blockchain Ethereum.
-										Dessa forma todos os instrutores e cursos terão suas avalições públicas.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header" role="tab" id="headingWallet">
-									<h5 class="mb-0">
-										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseWallet" aria-expanded="false" aria-controls="collapseWallet">
-											Transparência
-										</a>
-									</h5>
-								</div>
-								<div id="collapseWallet" class="collapse" role="tabpanel" aria-labelledby="headingWallet">
-									<div class="card-body">
-										A <strong>GoBlockchain</strong> manterá sua wallet aberta e transparente.
-									</div>
-								</div>
-							</div>							
-						</div>
-					</div>
-				</div>
+			   </div>
 			</div>
 		</div>
-	</section>
-
-	<!-- end feature1 -->
-
-	<!-- start contact -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2 class="text-uppercase">Entre em contato</h2>
-					<p>Ficou com alguma dúvida? Entre em contato conosco pelo email a seguir ou acesse nosso github. </p>
-					<address>
-						<!-- <p><i class="fa fa-map-marker"></i></p> -->
-						<!-- <p><i class="fa fa-phone"></i></p> -->
-						<p><a href="mailto:goblockchain.io@gmail.com?Subject=Site GoBlockchain" target="_top"> <i class="fa fa-envelope-o fa-2" ></i> </a>
-						<a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="_blank"><i class="fa fa-github fa-2"></i></a>
-						<a href="https://trello.com/b/mnVqJvV8/goblockchain" target="_blank"><i class="fa fa-trello fa-2"></i></a></p>
-					</address>
+    </section>
+    
+    <section class="team" id="time">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb5">
+                	<h2>TIME</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-4 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:50%; float:left; padding-right:20px;margin-top: 1.3em;">
+                        	<img src="images/henrique.png" width="100%">
+                        </div>
+                    	<div style="width:50%;float:left;padding:40px 0 0;">
+                        	<h4>Henrique Leite</h4>
+                        	<p style="margin-top:-10px;">Founder</p>
+                            <a href="" target="new"><span><i class="fa fa-linkedin" style="font-size:20px;"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:50%; float:left; padding-right:20px;margin-top: 1.3em;">
+                        	<img src="images/natalia.png" width="100%">
+                        </div>
+                    	<div style="width:50%;float:left;padding:40px 0 0;">
+                        	<h4>Natalia Tokar</h4>
+                        	<p style="margin-top:-10px;">Business Development</p>
+                            <a href="" target="new"><span><i class="fa fa-linkedin" style="font-size:20px;"></i></span></a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-4 mb2">
+                	<div class="row" style="margin:0 0 20px">
+						<div style="width:50%; float:left; padding-right:20px;margin-top: 1.3em;">
+                        	<img src="images/mais.png" width="100%">
+                        </div>
+                    	<div style="width:50%;float:left;padding:40px 0 0;">
+                        	<h4>Seja um colaborador</h4>
+                        	<p><a href="mailto:goblockchain.io@gmail.com?Subject=Site GoBlockchain">fale conosco</a></p>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </section>
+    
+    <section style="background:#f6f6f6">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb5">
+                	<h2>PARCEIROS</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2 text-center mb3">
+                	<img src="images/logo-agit.png">
+                </div>
+                <div class="col-md-2 text-center">
+                	<img src="images/logo_mudeame.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contato">
+        <div class="container">
+        	<div class="row mb1">
+            	<div class="col-md-12 text-left mb3">
+                	<h2>FALE CONOSCO</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-8">
+                	<p>A GoBlockchain é uma iniciativa para levar mais transparência e qualidade </br> para a educação do nosso país, faça parte disso.</p>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Sobre</strong></h5>
+						<p><a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md">Whitepaper</a></p>
+                		<!-- <p><a href="">Architecture</a></p> -->
+                	</div>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Resources</strong></h5>
+						<p><a href="">Blockchain Explorer</a></p>
+                		<p><a href="https://github.com/falehenrique/GBC_contratos">Github</a></p>
+                	</div>
+                	<!-- <div class="col-md-4 mt2 mb3" style="padding-left: 0;">
+                		<h5><strong>Get involved</strong></h5>
+						<p><a href="">Blog</a></p>
+                		<p><a href="">Get in touch</a></p>
+                	</div> -->
 				</div>
-
-				<div id="interest">
-					<a href="https://goo.gl/txQv36" name="btnAula" target="_blank" class="btn btn-success text-uppercase">Quero dar aula</a>
-					<a href="#courses" name="btnInscricao" class="btn btn-success text-uppercase">Quero aprender</a>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- end contact -->
-
-	<!-- start footer -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<p>Copyright © 2017 GoBlockchain</p>
-			</div>
-		</div>
-	</footer>
-	<!-- end footer -->
-
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap/popper.min.js"></script>
-
-	<script src="js/bootstrap/bootstrap.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.singlePageNav.min.js"></script>
-	<script src="js/custom.js"></script>
-
-	<!-- scripts -->
-	<!-- 	<script src="particles.js"></script> -->
-	<!-- 	<script src="js/app.js"></script> -->
-	<!-- stats.js -->
-	<!-- 	<script src="js/lib/stats.js"></script> -->
-
-
+                <div class="col-md-4">
+                	<p class="mb3"><a href="mailto:goblockchain.io@gmail.com?Subject=Site GoBlockchain" class="btn btn-primary">ENTRE EM CONTATO</a></p>
+                	<a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="new"><i class="fa fa-github" title="GitHub Go Blockchain"></i></a>
+                	<a href="https://www.facebook.com/goblockchain" target="new"><i class="fa fa-facebook" title="Facebook Go Blockchain"></i></a>
+                	<!-- <a href="" target="new"><span><i class="fa fa-twitter" title="Twitter Go Blockchain"></i></span></a> -->
+                	<a href="https://trello.com/b/mnVqJvV8/goblockchain" target="new"><span><i class="fa fa-trello" title="Trello Go Blockchain"></i></span></a>               
+                </div>
+                
+            </div>
+            <div class="row" style="border-top:1px solid #005B86;">
+            	<div class="col-md-12 text-center mt2 mb1" >
+                    <p>&copy; 2018 Go Blockchain — Todos os direitos reservados.</p>
+                </div>
+            </div>
+            </div>    
+    </footer>
+    
+    <script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+   
+   <script>
+		$(function(){
+ var shrinkHeader = 40;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.header').addClass('shrink');
+        }
+        else {
+            $('.header').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+		</script>
+        <script src="js/app.js" charset="utf-8"></script>
+    
 </body>
-</html>
 
+</html>
