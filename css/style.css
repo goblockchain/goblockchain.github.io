@@ -107,14 +107,14 @@ img::-moz-selection{color:#fff;background:0 0}
 .post-thumb p { margin-bottom:20px;}
 .post-thumb a { color:#fff; text-decoration:underline}
 .post-thumb a:hover { color:#fff; text-decoration:none}
-.post-time {background:#00AEFF; padding:0 15px 20px; color:#fff; text-align:center; font-weight:800; border-right:1px solid #003C58; width:30%; float:left}
-.post-time p {font-size:22px!important; line-height: 0.85;margin-bottom: 0}
+.post-time {background:#00AEFF; padding:0 15px 19px; color:#fff; text-align:center; font-weight:800; border-right:1px solid #003C58; width:30%; float:left}
+.post-time p {font-size:20px!important; line-height: 0.85;margin-bottom: 0}
 .post-level-1 {background:#2BDF00; padding:9px 15px 29px; color:#fff; text-align:center; font-weight:800; width:70%; float:left}
-.post-level-1 p {font-size:22px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
+.post-level-1 p {font-size:19px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
 .post-level-2 {background:#00AEFF; padding:9px 15px 29px; color:#fff; text-align:center; font-weight:800; width:70%; float:left}
-.post-level-2 p {font-size:22px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
+.post-level-2 p {font-size:19px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
 .post-level-3 {background:#FF3D00; padding:9px 15px 29px; color:#fff; text-align:center; font-weight:800; width:70%; float:left}
-.post-level-3 p {font-size:22px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
+.post-level-3 p {font-size:19px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
 .post-cash {background:#FFA700; padding:23.5px 15px; color:#fff;}
 .post-cash h2 {font-size:42px;}
 .post-cash-2 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:60%; float:left}
