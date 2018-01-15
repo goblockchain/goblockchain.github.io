@@ -91,15 +91,15 @@ img::-moz-selection{color:#fff;background:0 0}
 .p-right {padding-right: 0!important}
 
 /*! Parallax*/
-.parallax-container {position: relative;overflow: hidden;height: 100vh; padding:20px;}
+.parallax-container {position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;}
 .parallax-container h1 {color:#fff; font-size:52px;}
 .parallax-container h3 {color:#fff; font-size:26px; font-weight:400;}
 .parallax-container .parallax {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
 .parallax-container .parallax img {display: none;position: absolute;left: 50%;bottom: 0;min-width: 100%;min-height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
 .top {top:35%; position: inherit;}
-
+.tag-curso {border: 1px solid #fff;padding: 5px;margin-right: 10px;line-height: 35px;}
 .navbar .navbar-nav .new:after {-webkit-transition: opacity .3s ease;transition: opacity .3s ease;content: "";background: #ff0060;border: 1px solid #ff0060;border-radius: 50%;height: 10px;width: 10px;position: absolute;margin: 0px -5px;}
-.post-thumb {min-height: 340px; width: 100%; padding:30px 20px 1px; display: block;color: #fff;line-height: 20px;text-decoration: none; background-image: linear-gradient(to left, #009EE8, #003C58);overflow: hidden;}
+.post-thumb {min-height: 380px; width: 100%; padding:30px 20px 1px; display: block;color: #fff;line-height: 20px;text-decoration: none; background-image: linear-gradient(to left, #009EE8, #003C58);overflow: hidden;}
 .post-thumb-cat {position: absolute;right: 15px;top:100px;width: 75px;height: 140px;background-size: 100%!important;z-index:98}
 .post-thumb h2 {font-size:30px;font-weight:100;z-index:99;position:inherit;}
 .post-thumb h3 {text-transform: uppercase; margin-top:0px; margin-bottom:2px; font-size: 21px; z-index:99;position: inherit;}
@@ -117,7 +117,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .post-level-3 p {font-size:19px!important; line-height: 0.85;margin-bottom: 0; text-transform:uppercase}
 .post-cash {background:#FFA700; padding:23.5px 15px; color:#fff;}
 .post-cash h2 {font-size:42px;}
-.post-cash-2 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:60%; float:left}
+.post-cash-2 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:60%; float:left; text-align: center}
 .post-cash-2 p {font-size:15px; line-height: 0.85;margin-bottom: 0; font-weight:400;}
 .post-cash-2 h3 {font-size:18px; margin-top: 0px;margin-bottom: 3px;}
 .post-cash-3 {background:#FFA700; padding:18.5px 15px; color:#fff; text-align:center; font-weight:800; width:40%; float:left; min-height: 131px;}
@@ -135,6 +135,10 @@ img::-moz-selection{color:#fff;background:0 0}
 .mt3 {margin-top:3em;}
 .mt4 {margin-top:4em;}
 .mt5 {margin-top:5em;}
+.mt6 {margin-top:6em;}
+.mt7 {margin-top:7em;}
+.mt8 {margin-top:8em;}
+.mt9 {margin-top:9em;}
 .mt10 {margin-top:11em;}
 .mt15 {margin-top:15em;}
 .mt20 {margin-top:20em;}
@@ -150,7 +154,6 @@ img::-moz-selection{color:#fff;background:0 0}
 	.p-right {padding-right: 15px!important}
 	.metodologia {min-height: 200px;}
 	.form {display: none;}
-}
 }
 @media screen and (max-width: 480px) {
 .navbar-brand>img {
@@ -172,7 +175,6 @@ img::-moz-selection{color:#fff;background:0 0}
 .navbar-brand>img {display: block; max-height:80%;}
 .navbar-brand {float: left;height: 100px;padding: 15px 0px 0 15px;font-size: 18px;line-height: 20px;}
 .nav>li>a {position: relative;display: block;padding: 10px;}
-.btn-success {color: #fff!important;background-color: #b71463;border-color: #b71463;padding: 7px 20px!important; margin: 5px 10px 0px;}
 }
 @media screen and (max-width: 1119px){
 section.redes .fa {font-size: 2em;padding: 20px;margin: 10px 10px 0;}
