@@ -118,6 +118,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .post-cash {background:#FFA700; padding:23.5px 15px; color:#fff;}
 .post-cash h2 {font-size:42px;}
 .post-cash-2 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:60%; float:left; text-align: center}
+.post-cash-4 {background:#FFA700; padding:10px 20px; color:#fff; text-align:left; font-weight:800; border-right:1px solid #003C58; width:100%; float:left; text-align: center}
 .post-cash-2 p {font-size:15px; line-height: 0.85;margin-bottom: 0; font-weight:400;}
 .post-cash-2 h3 {font-size:18px; margin-top: 0px;margin-bottom: 3px;}
 .post-cash-3 {background:#FFA700; padding:18.5px 15px; color:#fff; text-align:center; font-weight:800; width:40%; float:left; min-height: 131px;}
