@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="blockchain,course,curso,bitcoin,ethereum,DLT,descentralizado,cursos,pagamento,dinheiro,Ethereum,confiança,transparência,segurança,curso r,curso bitcoin,tecnologia blockchain,plataforma de ensino,curso blockchain,curso professor,curso de bitcoin,o que e blockchain,plataforma de cursos,quero curso,curso aprender,cursos para aprender,o que é o blockchain,curso de quê,curso criar,blockchain curso,plataforma cursos,curso de de,curso plataforma,blockchain bancos,tecnologia bitcoin,plataforma para cursos,contratos inteligentes blockchain,curso aula,bitcoin,blockchain bitcoin,o que é blockchain,carteira blockchain,blockchain brasil,ethereum,blockchain ethereum,carteira bitcoin blockchain,carteira bitcoin,bitcoins,mercado bitcoin,blockchain info,foxbit,block,coinbase,blockchain login,blockchain como funciona,tecnologia blockchain,comprar bitcoin,litecoin blockchain,litecoin,curso blockchain,criptomoedas,ibm blockchain,blockchain revolution">
+	<meta property="og:title" content="Go Blockchain">
+	<meta property="og:description" content="Ensinando e construindo uma plataforma de ensino descentralizada">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://goblockchain.io/">
+	<meta property="og:image" content="http://goblockchain.io/images/logo_goblockchain_face.jpg">
+	<link rel="shortcut icon" href="images/icone.png">
+
+    <title>Go Blockchain | GO DEV - Desenvolvimento Blockchain Ethereum</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/badger-accordion.css">
+
+    <style media="screen">
+        .badger-accordion__panel {
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .badger-accordion__panel.is-active {
+            max-height: 75vh;
+        }
+
+        .badger-accordion__panel.is-hidden {
+            max-height: 0 !important;
+        }
+
+        .badger-accordion--initalised .badger-accordion__panel {
+            transition: all ease-in-out 0.2s; margin-bottom: 10px; background: #00AEFF;color: #fff;
+        }
+		.inscricao-box {
+    display: block;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #009EE8, #003C58);
+    max-width: 80%;
+	width: 1000px;
+    margin: -145px auto 0;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 30px 25px 0px;
+	}
+	.inscricao-box p {font-weight:200; margin:0}
+	.previa-content{
+width: 440px;
+margin: 0 auto;
+position: relative;
+margin-top: 70px;
+min-height: 80px;
+}
+
+.previa-content:first-child {
+margin-top: 0px;
+}
+
+.previa-content.odd{
+text-align: right;
+float: left;
+}
+
+.previa-content.even{
+text-align: left;
+float: right;
+}
+
+.previa-content.odd:before{
+content: '';
+display: block;
+background: #1498d5;	
+width: 5px;
+height: 115%;
+position: absolute;
+right: -62px;
+top: -20px;		
+}
+
+.previa-content.even:before{
+content: '';
+display: block;
+background: #1498d5;	
+width: 5px;
+height: 100%;	
+height: 100%;
+position: absolute;
+left: -63px;
+}
+
+.previa-content p{
+font-size: 14px;
+color: #444444;
+line-height: 18px;
+margin-bottom: 15px;}
+
+.previa-content h3{
+position: relative;
+width: 230px
+}
+
+.previa-content.odd h3{
+margin-left: auto;
+}
+
+.previa-content.even h3{
+margin-right: auto;
+}
+
+.previa-content h3:before{
+width: 290px;
+height: 4px;
+background: #1498d5;
+content: '';
+display: block;
+position: absolute;
+top -40px;
+z-index: 1;
+margin: 6px 15px 0;	
+}
+
+.previa-content h3:after{
+background: #FFFFFF;
+border: 3px solid #1498d5;
+box-shadow: 0px 0px 0px 10px #FFFFFF;
+content: '';
+display: block;
+position: absolute;
+border-radius: 100%;
+width: 16px;
+height: 16px;
+}
+
+.previa-content.odd h3:after,
+.previa-content.odd h3:before{
+right: -67px;
+top: -40px;
+}
+
+.previa-content.even h3:after,
+.previa-content.even h3:before{
+left: -67px;
+top: -40px;
+}
+
+.previa-content:last-child {
+min-height: auto;
+padding-bottom: 50px;
+}
+
+.previa-box{
+width: 1000px;
+max-width: 100%;
+margin: 0 auto;
+margin-top: 100px;
+}
+
+.previa-btn:before {
+    content: '';
+    display: block;
+    background: #1498d5;
+    width: 5px;
+    height: 100%;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    bottom: 53px;
+}
+
+.previa-btn {
+    background: #1498d5;
+	color:#fff;
+    clear: both;
+    float: left;
+    margin-left: -107px;
+    position: relative;
+    left: 46%;
+    margin-top: 50px;
+	width:30%;
+}
+
+.previa-btn.btn:hover,
+.previa-btn.btn:focus,
+.previa-btn.btn:active {
+border-color: #FFA700;
+background: #FFA700;
+color: #fff; }
+
+.btn-block {
+    border: 2px solid #64b7ff;
+    color: #64b7ff;
+}
+.btn-block:hover {
+    background: #64b7ff;
+    border: 2px solid #64b7ff;
+	color:#fff!important;
+}
+	
+	
+	
+	@media screen and (max-width: 480px) {
+		.inscricao-box {
+    width: 100%;
+	max-width: 100%;
+	text-align:center;
+	}
+	}
+	
+	@media screen and (max-width: 991px) {
+		.previa-btn:before {
+    display: none;
+    }
+	.previa-btn { margin-top:0}
+.previa-content.odd:before{
+    		display: none;
+    	}
+    	.previa-content {
+    		width: 100%;
+    		margin-top: 30px;
+    		margin-bottom: 30px;
+    	}
+    	.previa-content.even, .previa-content.odd {
+    		border-bottom: none;
+    		padding-bottom: 20px;
+    	}
+		.previa-content.odd {
+		    text-align: left;
+		    float: left;
+		}
+		
+		.previa-content h3 {
+		    position: relative;
+		    width: 100%;
+		    margin: 0;
+		}
+		
+		.previa-content.even h3:after, .previa-content.even h3:before {
+		    left: -10px;
+		    top: -40px;
+		        width: 97%;
+		}
+		
+		.previa-content.odd h3:after, .previa-content.odd h3:before {
+		    right: auto;
+		    top: -40px;
+		    left: -10px;
+		        width: 97%;
+		}
+		
+		.previa-content h3:after{
+			display: none;
+		}
+	}
+    </style>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments) };
+		gtag('js', new Date());
+		gtag('config', 'UA-107225502-1');
+		gtag('send', 'pageview');
+	</script>
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top header">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i style="font-size: .8em;" class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://goblockchain.io"><img src="images/logo_goblockchain.png" alt="Logotipo Go Blockchain" title="Logotipo Go Blockchain"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-right" style="padding: 15px 0 0 20px;">
+                    <li style="float:left;">
+                        <a style="color:#2C254E;background: #fff;font-weight: 600" href="http://goblockchain.io">PT</a>
+                    </li>
+                    <li style="float:left">
+                        <a href="">EN</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="padding: 10px 0 0 5px;">
+                    <li>
+                        <a href="http://goblockchain.io/#quem-somos">QUEM SOMOS</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#cursos">CURSOS</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#porque">POR QUE?</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#diferencial">DIFERENCIAL</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#time">TIME</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+ <section class="banner">
+    <div class="container">
+    	<div class="row">
+			<div class="col-md-12 text-center">
+            	<h2>GO DEVS - Desenvolvimento Blockchain Ethereum</h2>
+            </div>
+			<div class="col-md-12 text-center" id="inscreva-se">
+            	<p><span style="padding:5px 15px;" class="tag-curso">#showmethecode</span></p>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section class="cta" style="padding: 80px 0px 0px;">
+  	<div class="inscricao-box">
+        	<div class="row">
+				<div class="col-md-2-1 mb3">
+					<h3>QUANDO</h3>
+					<p><strong>23/02</strong> 19h às 22h<br><strong>24/02</strong> 8h às 18h</p>
+				</div>
+				<div class="col-md-2-1 mb3">
+					<h3>ONDE</h3>
+					<p><strong>AGIT - SP Centro</strong><br>próxima a estação Anhangabaú</p>
+				</div>
+				<div class="col-md-3">
+					<h3>INVESTIMENTO</h3>
+					<p style="background: #fff;padding: 3px 10px;font-weight: 600;color: #009EE8;margin-bottom:7px;">R$660,00 c/ suporte</p>
+                    <p>R$590,00 s/ suporte</p>
+				</div>
+				<div class="col-md-4 mb3">
+					<p><a class="btn btn-primary mt2" href="http://mpago.la/OJTL" target="new">QUERO COM SUPORTE</a></p>
+                    <p><a class="btn btn-block mt1" href="http://mpago.la/fmtP" target="new">QUERO SEM SUPORTE</a></p>
+				</div>
+			</div>
+        </div>
+   </section>
+
+  <section style="padding:80px 0 0">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-3 mb4">
+            	<h3>INSTRUTOR</h3>
+                <img  class="mb1"src="svg/line.svg" height="18">
+                <p><a href="https://www.linkedin.com/in/henrique-leite-2903/">Henrique Leite</a></p>
+			</div>
+            <div class="col-md-6 mb4">
+            	<h3>PRÉ REQUISITOS</h3>
+                <img  class="mb2"src="svg/line.svg" height="18">
+                <ul>
+                	<li>Experiência com linguagens de programação</li>
+					<li>Notebook</li>
+				</ul>
+			</div>
+            <div class="col-md-3 mb4">
+            	<h3>QND. DE VAGAS</h3>
+                <img src="svg/line.svg" height="18">
+                <p class="mt0"><span style="font-size:80px">15</span> alunos</li>
+			</div>
+        </div>
+    </div>
+  </section>
+
+    <section style="background:#f6f6f6;">
+        <div class="container">
+                <div class="col-md-12 text-center mb2">
+                	<h2>OBJETIVO DO CURSO</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                
+                <div class="col-md-12 mb4">
+                    <p>Nesse curso vamos falar sobre o Blockchain de forma simples e direta. No primeiro dia vamos discutir os conceitos de Blockchain, arquitetura Ethereum, desafios e oportunidades de negócios. E no dia seguinte vamos entrar na parte técnica com muita mão na massa e desenvolvimento de contratos inteligentes e DAPPS na rede Ethereum.</p>
+            	</div>
+                
+                <div class="previa-box">
+				<div class="previa-content odd">
+					<h3>PRIMEIRO DIA</h3>
+                	<p><strong>• O que é Blockchain</strong><br>História, vantagens, desafios e aplicações</p>
+					<p><strong>• Ethereum x Bitcoin</strong></p>
+                    <p><strong>• Algoritmos de consenso</strong><br>POW, POS e POA</p>
+                    <p><strong>• Arquitetura Ethereum</strong><br>Transações, contas, EVM, gas, contratos inteligentes</p>
+					<p><strong>• O que são Dapps</strong></p>
+                    <p><strong>• IPFS, Swarm, Whisper e Oracles</strong></p>
+				</div>
+							
+				<div class="previa-content even">
+					<h3>SEGUNDO DIA</h3>
+                	<p><strong>• Ambientes</strong><br>Desenvolvimento, Testnet e Mainnet</p>
+					<p><strong>• Configuração do ambiente</strong><br>Instalação do GETH, Comandos
+Executando comandos no console, Ethereum Wallet, Remix, Truffle, Visual code e plugins</p>
+                    <p><strong>• Smart Contract</strong><br>Origem e como aplicar na rede Ethereum, Linguagens de programação de Smart Contracts na rede Ethereum, Principais elementos do Solidity, Exemplos de Smart Contracts</p>
+                    <p><strong>• Exercícios</strong></p>
+					<p><strong>• Criando nossos contratos no Solidity</strong></p>
+					<p><strong>• Boas práticas e programação</strong></p>
+					<p><strong>• Como compilar e testar os contratos no MIST</strong></p>
+					<p><strong>• Web3 – Acessando nossos contratos através de uma camada web</strong></p>
+					<p><strong>• GoBlockchain</strong><br>Lições aprendidas, Desafios, Estrutura do projeto, Próximos passos</p>
+					<p><strong>• Módulo online</strong><br>O que são ICOS, Como criar um Token na rede Ethereum, Framework de desenvolvimento OpenZeppelin, Verificar vulnerabilidades nos Smart Contracts, Framework de desenvolvimento OpenZeppelin</p>
+                    <p><strong>• Exercícios para casa</strong></p>
+                    <p><strong>• *Suporte Exercícios para casa</strong><br>Após o curso cada aluno vai ter um suporte online com direito a 30 minutos por semana durante 3 semanas <strong>(OPCIONAL)</strong></p>
+				</div>
+							
+				<div class="previa-content odd">
+					<h3>(*) SUPORTE</h3>
+                	<p>São <strong>3 reuniões</strong> de suporte, <strong>2</strong> podem ser para temas do curso, dúvidas com exercícios, dúvidas sobre o material apresentado no curso. E 1 fica aberta para um bate papo com dúvidas em geral sobre Blockchain.</p>
+				</div>
+                <a class="btn previa-btn" href="#inscreva-se">QUERO ME INSCREVER</a>
+				</div>
+            </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+        	<div class="row mb1">
+            	<div class="col-md-12 text-left mb3">
+                	<h2>FALE CONOSCO</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-8 mb2">
+                	<p>A GoBlockchain é uma iniciativa para levar mais transparência e qualidade para a educação do nosso país, faça parte disso.</p>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Sobre</strong></h5>
+						<p><a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md">Whitepaper</a></p>
+                		<p>
+                            <!-- Calendly link widget begin -->
+                            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/henriqueleite/30min');return false;">Agende uma conversa</a>
+                            <!-- Calendly link widget end -->
+                        </p>
+                	</div>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Resources</strong></h5>
+						<p><a href="https://etherscan.io/address/0xaaFc13415382B9664764d436e8a4c10dB6Fd032e">Blockchain Explorer</a></p>
+                		<p><a href="https://github.com/falehenrique/GBC_contratos">Github</a></p>
+                	</div>
+                	<!-- <div class="col-md-4 mt2 mb3" style="padding-left: 0;">
+                		<h5><strong>Get involved</strong></h5>
+						<p><a href="">Blog</a></p>
+                		<p><a href="">Get in touch</a></p>
+                	</div> -->
+				</div>
+                <div class="col-md-4">
+                	<p class="mb3"><a href="mailto:goblockchain.io@gmail.com?Subject=Site GoBlockchain" class="btn btn-primary">ENTRE EM CONTATO</a></p>
+                	<a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="new"><i class="fa fa-github" title="GitHub Go Blockchain"></i></a>
+                	<a href="https://www.facebook.com/goblockchain" target="new"><i class="fa fa-facebook" title="Facebook Go Blockchain"></i></a>
+                	<!-- <a href="" target="new"><span><i class="fa fa-twitter" title="Twitter Go Blockchain"></i></span></a> -->
+                    <a href="https://trello.com/b/mnVqJvV8/goblockchain" target="new"><span><i class="fa fa-trello" title="Trello Go Blockchain"></i></span></a>
+
+                </div>
+            </div>
+            <div class="row" style="border-top:1px solid #005B86;">
+            	<div class="col-md-12 text-center mt2 mb1" >
+                    <p>&copy; 2018 Go Blockchain — Todos os direitos reservados.</p>
+                </div>
+            </div>
+            </div>
+    </footer>
+
+    <script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+
+   <script>
+		$(function(){
+ var shrinkHeader = 40;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.header').addClass('shrink');
+        }
+        else {
+            $('.header').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+		</script>
+        <script src="js/app.js" charset="utf-8"></script>
+
+</body>
+
+</html>

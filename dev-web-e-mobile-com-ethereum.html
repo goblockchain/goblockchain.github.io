@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="blockchain,course,curso,bitcoin,ethereum,DLT,descentralizado,cursos,pagamento,dinheiro,Ethereum,confiança,transparência,segurança,curso r,curso bitcoin,tecnologia blockchain,plataforma de ensino,curso blockchain,curso professor,curso de bitcoin,o que e blockchain,plataforma de cursos,quero curso,curso aprender,cursos para aprender,o que é o blockchain,curso de quê,curso criar,blockchain curso,plataforma cursos,curso de de,curso plataforma,blockchain bancos,tecnologia bitcoin,plataforma para cursos,contratos inteligentes blockchain,curso aula,bitcoin,blockchain bitcoin,o que é blockchain,carteira blockchain,blockchain brasil,ethereum,blockchain ethereum,carteira bitcoin blockchain,carteira bitcoin,bitcoins,mercado bitcoin,blockchain info,foxbit,block,coinbase,blockchain login,blockchain como funciona,tecnologia blockchain,comprar bitcoin,litecoin blockchain,litecoin,curso blockchain,criptomoedas,ibm blockchain,blockchain revolution">
+	<meta property="og:title" content="Go Blockchain">
+	<meta property="og:description" content="Ensinando e construindo uma plataforma de ensino descentralizada">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://goblockchain.io/">
+	<meta property="og:image" content="http://goblockchain.io/images/logo_goblockchain_face.jpg">
+	<link rel="shortcut icon" href="images/icone.png">
+
+    <title>Go Blockchain | Dev web e mobile com Ethereum</title>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,400,400i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/badger-accordion.css">
+
+    <style media="screen">
+        .badger-accordion__panel {
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .badger-accordion__panel.is-active {
+            max-height: 75vh;
+        }
+
+        .badger-accordion__panel.is-hidden {
+            max-height: 0 !important;
+        }
+
+        .badger-accordion--initalised .badger-accordion__panel {
+            transition: all ease-in-out 0.2s; margin-bottom: 10px; background: #00AEFF;color: #fff;
+        }
+		.inscricao-box {
+    display: block;
+    font-size: 20px;
+    background-image: linear-gradient(to left, #009EE8, #003C58);
+    max-width: 80%;
+	width: 1000px;
+    margin: -145px auto 0;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 30px 25px 0px;
+	}
+	.inscricao-box p {font-weight:200; margin:0}
+	
+	@media screen and (max-width: 480px) {
+		.inscricao-box {
+    width: 100%;
+	max-width: 100%;
+	text-align:center;
+	}
+    </style>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments) };
+		gtag('js', new Date());
+		gtag('config', 'UA-107225502-1');
+		gtag('send', 'pageview');
+	</script>
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top header">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i style="font-size: .8em;" class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://goblockchain.io"><img src="images/logo_goblockchain.png" alt="Logotipo Go Blockchain" title="Logotipo Go Blockchain"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-right" style="padding: 15px 0 0 20px;">
+                    <li style="float:left;">
+                        <a style="color:#2C254E;background: #fff;font-weight: 600" href="http://goblockchain.io">PT</a>
+                    </li>
+                    <li style="float:left">
+                        <a href="">EN</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="padding: 10px 0 0 5px;">
+                    <li>
+                        <a href="http://goblockchain.io/#quem-somos">QUEM SOMOS</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#cursos">CURSOS</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#porque">POR QUE?</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#diferencial">DIFERENCIAL</a>
+                    </li>
+                    <li>
+                        <a href="http://goblockchain.io/#time">TIME</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+ <section class="banner">
+    <div class="container">
+    	<div class="row">
+			<div class="col-md-12 text-center">
+            	<h2>GO DEVS - desenvolvimento web e mobile com ethereum</h2>
+            </div>
+			<div class="col-md-12 text-center">
+            	<p><span style="padding:5px 15px;" class="tag-curso">#semblabla</span> <span style="padding:5px 15px;" class="tag-curso">#showmethecode</span> <span style="padding:5px 15px;" class="tag-curso">#gocode</span> </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section class="cta">
+  	<div class="inscricao-box">
+        	<div class="row">
+				<div class="col-md-2 mb3">
+					<h3>QUANDO</h3>
+					<p><span style="font-size:52px; line-height: 58px;">21/01</span><br>9h às 19h</span></p>
+				</div>
+				<div class="col-md-3 mb3">
+					<h3>ONDE</h3>
+					<p>São Paulo<br>Rua Viradouro, 42<br>Itaim Bibi</p>
+				</div>
+				<div class="col-md-3">
+					<h3>INVESTIMENTO</h3>
+					<p style="background: #fff;padding: 3px 10px;font-weight: 600;color: #009EE8;margin-bottom:7px;">R$490,00 até 15/01</p>
+                    <p>R$590,00 após 15/01</p>
+				</div>
+				<div class="col-md-4 mb3">
+					<p><a class="btn btn-primary mt3" href="http://mpago.la/wjUd" target="new">QUERO ME INSCREVER</a></p>
+				</div>
+			</div>
+        </div>
+   </section>
+   
+   <section class="cta">
+  		<div class="container">
+        	<div class="row">
+				<div class="col-md-3 text-center mb3">
+					<img src="images/go-blockchain.jpg" width="40%">
+				</div>
+				<div class="col-md-3 text-center mb3">
+					<img src="images/beyond.jpg" width="40%">
+				</div>
+                <div class="col-md-3 text-center mb3">
+					<img src="images/ethereum.jpg" width="40%">
+				</div>
+                <div class="col-md-3 text-center mb3">
+					<img src="images/solidity.jpg" width="20%">
+				</div>
+			</div>
+        </div>
+   </section>
+
+  <section style="background:#f6f6f6; padding:80px 0 0">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-3 mb4">
+            	<h3>INSTRUTORES</h3>
+                <img  class="mb1"src="svg/line.svg" height="18">
+                <p><a href="https://www.linkedin.com/in/henrique-leite-2903/">Henrique Leite</a> <br> <a href="https://www.linkedin.com/in/dpantani/">Danilo Pantani</a></p>
+			</div>
+            <div class="col-md-6 mb4">
+            	<h3>PRÉ REQUISITOS</h3>
+                <img  class="mb2"src="svg/line.svg" height="18">
+                <ul>
+                	<li>Experiência com linguagens de programação</li>
+					<li>Conhecimento sobre Blockchain</li>
+					<li>Programação em Javascript e HTML(obrigatório)</li>
+					<li>Conhecimento sobre ambiente mobile android</li>
+                </ul>
+			</div>
+            <div class="col-md-3 mb4">
+            	<h3>QND. DE VAGAS</h3>
+                <img src="svg/line.svg" height="18">
+                <p class="mt0"><span style="font-size:80px">20</span> vagas</li>
+			</div>
+        </div>
+    </div>
+  </section>
+
+    <section id="cursos">
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12 text-center mb3">
+                	<h2>DESCRITIVO</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Montar nosso ambiente com GETH</strong><br>Vamos criar nosso ambiente de desenvolvimento para simular um nó Ethereum.</p>
+					<p><strong>Como criar contratos no Solidity</strong><br>** é importante ressaltar que não vamos dar muita ênfase para o Solidity, vamos focar na camada web.</p>
+					<p><strong>Como compilar e testar os contratos no MIST</strong><br>Vamos baixar o testar nosso contrato no MIST</p>
+					<p><strong>Como compilar e testar os contratos no Truffle</strong><br>Vamos instalar o framework de desenvolvimento Truffle, criar as migrations para as migrações e aplicar os testes unitários.</p>
+                    <p><strong>Criando nossa aplicação Web para testar nosso contrato</strong><br>Após os testes no Truffle iremos criar uma página web para fazer acessar nosso Smart Contract.</p>
+            	</div> 
+                <div class="col-md-6">
+					<p><strong>Vamos falar sobre o Infura e o Framework OpenZeppelin</strong><br>Aprenda a configurar seu ambiente facilmente com Infura e fazer contratos mais seguros com o OpenZeppelin.</p>
+					<p><strong>Configurando o ambiente no Android</strong><br>Como configurar o framework Web3j para fazer conexões com o nosso nó.</p>
+					<p><strong>Transacionando com Web3j</strong><br>Vamos aprender a criar novas carteiras e transacionar ether entre elas.</p>
+					<p><strong>Como interagir com Contratos no Android</strong><br>Iremos acessar nossos contratos, além de criar novos a partir do Android.</p>
+					<p><strong>Escutando Eventos do nosso contrato</strong><br>Como fazer uma aplicação em tempo real escutando eventos do contrato.</p>       
+        		</div>
+                <div class="col-md-4"></div>
+				<div class="col-md-4"><p><a class="btn btn-primary mt2" href="http://mpago.la/wjUd" target="new">QUERO ME INSCREVER</a></p>
+				</div>
+        	</div>
+    	</div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+        	<div class="row mb1">
+            	<div class="col-md-12 text-left mb3">
+                	<h2>FALE CONOSCO</h2>
+                    <img src="svg/line.svg" height="18">
+                </div>
+                <div class="col-md-8 mb2">
+                	<p>A GoBlockchain é uma iniciativa para levar mais transparência e qualidade para a educação do nosso país, faça parte disso.</p>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Sobre</strong></h5>
+						<p><a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md">Whitepaper</a></p>
+                		<p>
+                            <!-- Calendly link widget begin -->
+                            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/henriqueleite/30min');return false;">Agende uma conversa</a>
+                            <!-- Calendly link widget end -->
+                        </p>
+                	</div>
+                	<div class="col-md-4 mt2" style="padding-left: 0;">
+                		<h5><strong>Resources</strong></h5>
+						<p><a href="https://etherscan.io/address/0xaaFc13415382B9664764d436e8a4c10dB6Fd032e">Blockchain Explorer</a></p>
+                		<p><a href="https://github.com/falehenrique/GBC_contratos">Github</a></p>
+                	</div>
+                	<!-- <div class="col-md-4 mt2 mb3" style="padding-left: 0;">
+                		<h5><strong>Get involved</strong></h5>
+						<p><a href="">Blog</a></p>
+                		<p><a href="">Get in touch</a></p>
+                	</div> -->
+				</div>
+                <div class="col-md-4">
+                	<p class="mb3"><a href="mailto:goblockchain.io@gmail.com?Subject=Site GoBlockchain" class="btn btn-primary">ENTRE EM CONTATO</a></p>
+                	<a href="https://github.com/goblockchain/goblockchain.github.io/blob/master/README.md" target="new"><i class="fa fa-github" title="GitHub Go Blockchain"></i></a>
+                	<a href="https://www.facebook.com/goblockchain" target="new"><i class="fa fa-facebook" title="Facebook Go Blockchain"></i></a>
+                	<!-- <a href="" target="new"><span><i class="fa fa-twitter" title="Twitter Go Blockchain"></i></span></a> -->
+                    <a href="https://trello.com/b/mnVqJvV8/goblockchain" target="new"><span><i class="fa fa-trello" title="Trello Go Blockchain"></i></span></a>
+
+                </div>
+            </div>
+            <div class="row" style="border-top:1px solid #005B86;">
+            	<div class="col-md-12 text-center mt2 mb1" >
+                    <p>&copy; 2018 Go Blockchain — Todos os direitos reservados.</p>
+                </div>
+            </div>
+            </div>
+    </footer>
+
+    <script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+
+   <script>
+		$(function(){
+ var shrinkHeader = 40;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.header').addClass('shrink');
+        }
+        else {
+            $('.header').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+		</script>
+        <script src="js/app.js" charset="utf-8"></script>
+
+</body>
+
+</html>
