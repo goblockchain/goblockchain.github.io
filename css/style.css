@@ -358,9 +358,9 @@ section h2 {font-size:38px;}
           width: 40%; } }
 .Roadmap__event:nth-child(1):after {
       background-color: #00AEFF; }
-/* .Roadmap__event:nth-child(2):after {
+.Roadmap__event:nth-child(2):after {
       background-color: #00AEFF; }
-.Roadmap__event:nth-child(3):after {
+/* .Roadmap__event:nth-child(3):after {
       background-color: #00AEFF; } */
 
 @media (min-width: 1024px) {
