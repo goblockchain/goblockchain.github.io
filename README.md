@@ -1,5 +1,4 @@
 # GoBlockchain
-----------
 [![N|Solid](http://goblockchain.io/images/logo_goblockchain.png)](http://goblockchain.io/)
 
 [![alt text][1.1]][1] [![alt text][2.1]][2]
@@ -60,19 +59,19 @@ _O colaborador acumulará pontos para participar das votações. Os pontos são 
 - [Reputação do Aluno](https://github.com/goblockchain/smart-contract-reputation)
 - [Identificação de Pessoa](https://github.com/goblockchain/smart-contract-identification)
 -----
-## Princípios
+### Princípios
 A plataforma foi concebida observando os princípios do Blockchain:
 Plataforma Descentralizada
 Tomada de Decisão em Consenso
 Remuneração por Proof of work
  
-## Missão
+### Missão
 Blockchain é uma tecnologia promissora para o futuro das transações e menos de 0,001% do mundo conhece ou sabe da sua existência. Nossa missão é disseminar o conhecimento da tecnologia Blockchain para o maior número de pessoas possível ao redor do mundo.
 
-## Visão
+### Visão
 Se tornar a maior plataforma global descentralizada e distribuída para que mais pessoas consigam ter acesso ao conhecimento da tecnologia Blockchain 
 
-## Valores
+### Valores
 - Ética
 - Colaboração
 - Transparência
