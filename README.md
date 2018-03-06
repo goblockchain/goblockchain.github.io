@@ -5,6 +5,7 @@
 [![alt text][1.1]][1] [![alt text][2.1]][2]
 
 _A plataforma e o conteúdo estão em fase de desenvolvimento na versão beta e em constante atualização. Algumas coisas escritas aqui, ainda não estão implementadas._
+
 ----
 ## O que é a GoBlockchain?
 A [GoBlockchain](http://goblockchain.io) é “_Uma plataforma com objetivo de conectar pessoas com interesse na tecnologia Blockchain_” com propósito de “_Impulsionar o conhecimento a cerca da tecnologia Blockchain aplicando seus conceitos na prática_”.
