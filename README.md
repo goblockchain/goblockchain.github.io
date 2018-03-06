@@ -1,111 +1,83 @@
-**GoBlockchain**
-----------
-www.goblockchain.io
+# GoBlockchain
+[![N|Solid](http://goblockchain.io/images/logo_goblockchain.png)](http://goblockchain.io/)
 
-*** A plataforma e o conteúdo estão em fase de desenvolvimento na versão beta. Algumas coisas escritas aqui, não estão implementadas ainda.***
+[![alt text][1.1]][1] [![alt text][2.1]][2]
 
-A GoBlockchain é uma plataforma que conecta pessoas com interesse na tecnologia Blockchain. Seu propósito é impulsionar o conhecimento a cerca da tecnologia Blockchain.
+_A plataforma e o conteúdo estão em fase de desenvolvimento na versão beta e em constante atualização. Algumas coisas escritas aqui, ainda não estão implementadas._
 
-Acreditamos que a tecnologia Blockchain não é só mais uma inovação. Entendemos que ela traz em si conceitos como transparência, segurança, confiança e simplicidade e que sua adoção, já em andamento no mundo todo, trará uma grande mudança na forma de se pensar e fazer negócios. Por isso montamos uma plataforma para conectar pessoas e impulsionar o conhecimento a cerca da tecnologia Blockchain. 
+----
+## O que é a GoBlockchain?
+A [GoBlockchain](http://goblockchain.io) é “_Uma plataforma com objetivo de conectar pessoas com interesse na tecnologia Blockchain_” com propósito de “_Impulsionar o conhecimento a cerca da tecnologia Blockchain aplicando seus conceitos na prática_”.
 
-Seguindo a onda das criptomoedas como Bitcoin e Ether, e aproveitando todas as vantagens da arquitetura blockchain, decidimos criar uma plataforma onde seja possível colaborar e disseminar conhecimento sobre tudo a cerca da tecnologia blockchain com confiança, segurança, transparência de maneira distribuída e descentralizada. Aproveitando dos smart contracts, tudo será registrado na rede blockchain da Ethereum de forma a registrar e garantir que todo o combinado entre as partes será cumprido.
+Inicialmente éramos apenas entusiastas interessados em criar e promover cursos sobre negócios e desenvolvimento usando Blockchain.
 
-**Produtos e Serviços**
+Conforme a idéia amadureceu, nos demos conta de que, se acreditamos tanto na tecnologia Blockchain e seus princípios, porque não utilizar a nossa própria iniciativa para desenvolver uma plataforma de ensino descentralizada e transparente baseada nos conceitos da Blockchain?!
 
-Fóruns de discussão
-Material informativo
-Consultoria, Treinamentos, Palestras e Workshops
-Produtos baseados em tecnologia Blockchain
+_A GoBlockchain não tem um “CEO”, centralizador das decisões, e sim colaboradores que, usando o conceito de “consenso”, votam e tomam decisões sobre o caminho da plataforma._
 
-Inicialmente serão oferecidos apenas treinamentos, palestras e workshops
+**Deseja colaborar? Leia a nossa cartilha [nesse link](https://docs.google.com/document/d/e/2PACX-1vTabbK3WL1aao4q51_KN7qzeeG3Go1f0NFqvGqvfMFh8ypAMr25r-7SI_gWa_WX1vmFhr3sYBtNE7j3/pub).**
 
+---------
+### Governança
+A gestão da GoBlockchain é feita seguindo a _filosofia de colaboração, consenso, transparência_ sempre pautado na **ética** e utilizando como base ferramentas e métodos ágeis para organização e comunicação.
 
-**Membros, Papéis e Responsabilidades** 
+**Conselho Gestor**
+É formado inicialmente pelos fundadores, porém os colaboradores mais atuantes podem fazer parte do conselho e a quantidade de conseleheiros deve ser sempre impar e representar pelo menos 10% do total de colabores. O Conselho se reúne sempre que necessário para tratar sobre todos assuntos pertinentes a GoBlockchain.
 
-Founder: Idealizador e Fundador da plataforma GoBlockchain. Contribui com o desenvolvimento da plataforma sendo responsável pela concepção da plataforma. 
+**Membros, Papéis e Responsabilidades**
+_Os membros são pessoas com o propósito pessoal alinhado com a proposta da GoBlockchain._
 
-Co-Founders: Co-fundadores da plataforma  GoBlockchain. Contribuem com o desenvolvimento da plataforma como responsáveis pela manutenção dos conceitos da plataforma, criação do modelo de negócio, elaboração e implementação da arquitetura da plataforma.
+- **Founder**: Idealizador e Fundador da plataforma GoBlockchain. Contribui com o desenvolvimento da plataforma sendo responsável pela concepção da plataforma. 
+- **Co-Founders**: Co-fundadores da plataforma  GoBlockchain. Contribuem com o desenvolvimento da plataforma como responsáveis pela manutenção dos conceitos da plataforma, criação do modelo de negócio, elaboração e implementação da arquitetura da plataforma.
+- **Colaboradores**: Contribuem com o desenvolvimento da plataforma colaborando com as tarefas.
+- **Parceiros**: Contribuem com o desenvolvimento da plataforma oferecendo produtos e serviços 
+- **Cliente**: Consome produtos e serviços oferecidos pela plataforma. Para se tornar um conselheiro, precisará ser um colaborador
+- **Conselheiros**: Contribui com o desenvolvimento da plataforma participando do conselho gestor. Qualquer membro pode se tornar um conselheiro.
 
-Colaboradores: Pessoas com propósito pessoal alinhado com propósito da GoBlockchain. Contribuem com o desenvolvimento da plataforma realizando atividades 
+Sendo um parceiro, colaborador ou cliente da plataforma, você tem direito a sugerir mudanças e melhorias as quais serão levadas para a votação no conselho gestor.
 
-Parceiros: Contribuem com o desenvolvimento da plataforma oferecendo produtos e serviços 
+### Atividades
+O Colabora poderá escolher qualquer tarefa do BackLog para contribuir, as tarefas poderão ser realizadas em grupo, desde que haja comunicação entre as partes. Após a conclusão da tarefa o Conselho Gestor irá validar a tarefa e atribuir os pontos ao colaborador.
 
-Cliente: Consome produtos e serviços oferecidos pela plataforma. Para se tornar um conselheiro precisará ser um colaborador
+_O colaborador acumulará pontos para participar das votações. Os pontos são expiram após um ano contado a partir da data da finalização da atividade._
+**As atividades estão disponíveis em nosso Trello - [nesse link](https://trello.com/b/mnVqJvV8/goblockchain-colaboradores).**
 
-Conselheiro: Pessoas com propósito pessoal alinhado com propósito da GoBlockchain. Contribui com o desenvolvimento da plataforma participando do conselho gestor
+----
+### Produtos e Serviços
+- Fóruns de discussão
+- Material informativo
+- Consultoria, Treinamentos, Palestras e Workshops
+- Produtos baseados em tecnologia Blockchain
+- Conteúdo gratuíto em nossas redes sociais
 
+### Conheça os nossos Smart Contracts:
 
-**Conselho gestor**
-
-A administração da plataforma será feita pelo Conselho Gestor que tomará as decisões em consenso. Na GoBlockchain, os colaboradores e parceiros poderão ser conselheiros e ter direito a voto nas tomadas de decisões a respeito da administração da plataforma.  
-
-O peso de cada voto varia conforme a sua contribuição para a desenvolvimento da GoBlockchain. Quanto maior a contribuição do conselheiro para desenvolvimento da GoBlockchain maior será seu poder de voto no conselho.
-
-
-**Execução de Atividades**
-
-As atividades serão disponibilizadas inicialmente na ferramenta “Trello”.
-O Colaborador deve executar a tarefa completamente de acordo com as especificações descritas na ferramenta.
-Após execução da atividade o Conselho Gestor irá avaliar a execução da tarefa e validar a finalização da atividade atribuindo os pontos ao colaborador.
-O colaborador acumulará pontos para participar das votações. Os pontos são expiram após um ano contado a partir da data da finalização da atividade.
-
-
-Por que?
-----------
-
-Incentivamos a livre concorrência, preços justos proporcionando a escolha pela melhor composição de valor e qualidade de produtos e serviços relacionados a tecnologia Blockchain.
-Uma parcela do que a GoBlockchain arrecadar, será reinvestida para desenvolver a plataforma. Entendemos que mais importante do que lucrar é deixar nossa contribuição para um mundo melhor.
-
-
-**Princípios**
-
+- [Balanço da carteira da GoBlockchain](https://github.com/goblockchain/smart-contract-checking-account)
+- [Avaliação do Tutor](https://github.com/goblockchain/smart-contract-payment-release)
+- [Validação dos Eventos](https://github.com/goblockchain/smart-contract-event)
+- [Certificado do Aluno](https://github.com/goblockchain/smart-contract-certificate)
+- [Reputação do Aluno](https://github.com/goblockchain/smart-contract-reputation)
+- [Identificação de Pessoa](https://github.com/goblockchain/smart-contract-identification)
+-----
+### Princípios
 A plataforma foi concebida observando os princípios do Blockchain:
 Plataforma Descentralizada
 Tomada de Decisão em Consenso
 Remuneração por Proof of work
  
-**Missão**
-
+### Missão
 Blockchain é uma tecnologia promissora para o futuro das transações e menos de 0,001% do mundo conhece ou sabe da sua existência. Nossa missão é disseminar o conhecimento da tecnologia Blockchain para o maior número de pessoas possível ao redor do mundo.
 
-**Visão**
-
+### Visão
 Se tornar a maior plataforma global descentralizada e distribuída para que mais pessoas consigam ter acesso ao conhecimento da tecnologia Blockchain 
 
-**Valores**
+### Valores
+- Ética
+- Colaboração
+- Transparência
 
-Ética
-Colaboração
-Transparência
+[1.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+[2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
 
-Como funciona a GoBlockchain?
-
-Nós ajudamos a conectar pessoas a parceiros que entendem estar aptos a contribuir com conhecimento sobre a tecnologia blockchain e suas aplicações. 
-No site principal, haverá inicialmente uma lista de cursos ofertados por parceiros (professores, simpatizantes, entusiastas ou qualquer pessoa que se acha apta a contribuir com a plataforma). A partir dessa lista, a pessoa deverá preencher os dados e pré-requisitos para aquela atividade específica. 
-Toda a conexão entre as duas partes é registrada na rede ethereum, garantindo a segurança de ambas as partes. Esse registro é feito via smart contract que é um contrato virtual registrado no blockchain ethereum. O contrato é personalizado conforme cada necessidade. Toda a regra de contrato estará disponível no momento da contratação do serviço.
-Os parceiros são responsáveis pela estruturação de seu produto e serviço, como locais para treinamento, alimentação, etc
-
-
-Diferenciais
-------------
-
-**A escola feita por você**
-
-Sendo um parceiro ou colaborador da plataforma, você tem direito a sugerir mudanças e melhorias as quais serão levadas para a votação no conselho gestor.
-
-**Reputação do tutor**
-
-O parceiro será avaliado por meio de uma votação. Essa pontuação entra no histórico do parceiro e também será usada como regra do contrato. O parceiro com reputação baixa poderá ficar suspenso da plataforma até que faça uma reciclagem de conhecimento e esteja apto novamente a compartilhar o conhecimento com qualidade.
-
-**Confirmação da atividade**
-
-Todos os pré-requisitos do contrato precisam ser atendidos, caso contrário, a atividade não ocorrerá.
-
-**Transparência**
-
-A GoBlockchain manterá o saldo de sua wallet aberta e transparente.
-
-**Certificado**
-
-Todos os alunos dos cursos terão seu certificado registrado na rede blockchain ethereum.
-
+[1]: https://www.facebook.com/goblockchain/
+[2]: https://github.com/goblockchain
