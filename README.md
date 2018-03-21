@@ -37,7 +37,7 @@ _Os membros são pessoas com o propósito pessoal alinhado com a proposta da GoB
 Sendo um parceiro, colaborador ou cliente da plataforma, você tem direito a sugerir mudanças e melhorias as quais serão levadas para a votação no conselho gestor.
 
 ### Atividades
-O Colabora poderá escolher qualquer tarefa do BackLog para contribuir, as tarefas poderão ser realizadas em grupo, desde que haja comunicação entre as partes. Após a conclusão da tarefa o Conselho Gestor irá validar a tarefa e atribuir os pontos ao colaborador.
+O Colaborador poderá escolher qualquer tarefa do BackLog para contribuir, as tarefas poderão ser realizadas em grupo, desde que haja comunicação entre as partes. Após a conclusão da tarefa o Conselho Gestor irá validar a tarefa e atribuir os pontos ao colaborador.
 
 _O colaborador acumulará pontos para participar das votações. Os pontos são expiram após um ano contado a partir da data da finalização da atividade._
 **As atividades estão disponíveis em nosso Trello - [nesse link](https://trello.com/b/mnVqJvV8/goblockchain-colaboradores).**
