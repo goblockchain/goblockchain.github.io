@@ -65,7 +65,7 @@ section.redes .fa:hover {border-bottom:4px solid #fff;}
 section.fazemos{background:#fff; color:#003C58;}
 /* section.cursos p{font-size: 12px;} */
 section.cursos{background:#003C58; color:#fff;}
-ection.cursos p{font-size: 12px;}
+section.cursos p{font-size: 12px;}
 section.team p{font-size: 16px;}
 section.banner{background: url(../images/bg-color.jpg) center center; background-repeat:no-repeat; background-size:cover; padding:180px 0 140px;}
 section.banner h2{font-size: 42px; color:#fff}
@@ -201,6 +201,10 @@ section h2 {font-size:38px;}
 .navbar-fixed-top .navbar-collapse, .navbar-header, .navbar-fixed-top{background-color:#1498d5;}
 }
 
+/* section.cursos{background:#003C58; color:#fff;} */
+#diferencial {background:#fafdff}
+#fazemos {background:#f6f6f6}
+
 /*! Form CTA*/
 .form {
   width:100%;
@@ -292,15 +296,15 @@ section h2 {font-size:38px;}
     list-style: none;
     height: 230px;
     position: relative; }
-@media (max-width: 1023px) {
+@media (max-width: 1000px) {
       .Roadmap__events {
         height: 650px; } }
 .Roadmap__event {
     position: absolute;
     height: 100px; }
 .Roadmap__event:nth-child(1) {
-      left: calc((100% / 6 + 10px) * (1 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (1 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(1) {
           top: calc(100px * 0);
@@ -309,8 +313,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(2) {
-      left: calc((90% / 6 + 10px) * (2 - 1));
-      width: calc(120% / 6); }
+      left: calc((90% / 5 + 10px) * (2 - 1));
+      width: calc(120% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(2) {
           top: calc(100px * 1);
@@ -319,8 +323,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(3) {
-      left: calc((100% / 6 + 10px) * (3 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (3 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(3) {
           top: calc(100px * 2);
@@ -329,8 +333,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(4) {
-      left: calc((100% / 6 + 10px) * (4 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (4 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(4) {
           top: calc(100px * 3);
@@ -339,8 +343,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(5) {
-      left: calc((98.5% / 6 + 10px) * (5 - 1));
-      width: calc(100% / 6); }
+      left: calc((98.5% / 5 + 10px) * (5 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(5) {
           top: calc(100px * 4);
@@ -348,20 +352,10 @@ section h2 {font-size:38px;}
           right: 0;
           margin: auto;
           width: 40%; } }
-.Roadmap__event:nth-child(6) {
-      left: calc((97% / 6 + 10px) * (6 - 1));
-      width: calc(100% / 6); }
-@media (max-width: 1023px) {
-        .Roadmap__event:nth-child(6) {
-          top: calc(100px * 5);
-          left: 0;
-          right: 0;
-          margin: auto;
-          width: 40%; } }
 .Roadmap__event:nth-child(1):after {
       background-color: #00AEFF; }
-.Roadmap__event:nth-child(2):after {
-      background-color: #00AEFF; }
+/* .Roadmap__event:nth-child(2):after {
+      background-color: #00AEFF; } */
 /* .Roadmap__event:nth-child(3):after {
       background-color: #00AEFF; } */
 
