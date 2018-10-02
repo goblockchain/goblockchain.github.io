@@ -98,8 +98,10 @@ img::-moz-selection{color:#fff;background:0 0}
 
 /*! Parallax*/
 .parallax-container { position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;}
-.parallax-container h1 {color:#fff; font-size:52px;}
-.parallax-container h3 {color:#fff; font-size:26px; font-weight:400;}
+.parallax-container h1 {color:#003C58; font-size:52px;}
+.parallax-container h3 {color:#003C58; font-size:26px; font-weight:400;}
+.parallax-container button {background-color:#00AEFF; border-color: #00AEFF;}
+
 .parallax-container .parallax {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
 .parallax-container .parallax img {display: none;position: absolute;left: 50%;bottom: 0;min-width: 100%;min-height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
 .top {top:35%; position: inherit;}
