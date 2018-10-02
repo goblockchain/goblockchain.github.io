@@ -57,12 +57,21 @@ section.contact{text-align:center}
 	header .header-content .header-content-inner h1{font-size:52px}
 }
 .right-lang {padding:8px 0 0 30px;}
+
+
+#como .fa {font-size: 80px;}
+#como .fab {font-size: 80px;}
+#como .fas {font-size: 80px;}
+
+
 section{padding:80px 0px}
 section.cta{padding:80px 0px 0px}
 section.redes{background: #252c75}
 section.redes .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:3.5em; padding:30px; margin:20px 20px 0;color:#fff;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;border-bottom:4px solid #252c75;}
 section.redes .fa:hover {border-bottom:4px solid #fff;}
 section.fazemos{background:#fff; color:#003C58;}
+#fazemos .fa {font-size: 80px;}
+#fazemos .fas {font-size: 80px;}
 /* section.cursos p{font-size: 12px;} */
 section.cursos{background:#003C58; color:#fff;}
 section.cursos p{font-size: 12px;}
@@ -100,7 +109,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .parallax-container { position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;}
 .parallax-container h1 {color:#003C58; font-size:52px;}
 .parallax-container h3 {color:#003C58; font-size:26px; font-weight:400;}
-.parallax-container button {background-color:#00AEFF; border-color: #00AEFF;}
+
 
 .parallax-container .parallax {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
 .parallax-container .parallax img {display: none;position: absolute;left: 50%;bottom: 0;min-width: 100%;min-height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
