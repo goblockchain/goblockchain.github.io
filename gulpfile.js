@@ -1,14 +1,16 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var reload      = browserSync.reload;
+var reload = browserSync.reload;
 
-gulp.task('serve', function() {
+gulp.task('serve', function () {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./app"
         }
     });
-    gulp.watch("./*.html").on("change", reload);
-    gulp.watch("./js/**/*.js").on("change", reload);    
-    gulp.watch("./css/*.css").on("change", reload);     
+    gulp.watch("./app/*.html").on("change", reload);
+    gulp.watch("app/*.js").on("change", reload);
+    gulp.watch("app/css/*.css").on("change", reload);
+    gulp.watch("app/scss/*.css").on("change", reload);
+
 });
