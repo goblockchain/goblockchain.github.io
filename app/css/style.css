@@ -57,15 +57,24 @@ section.contact{text-align:center}
 	header .header-content .header-content-inner h1{font-size:52px}
 }
 .right-lang {padding:8px 0 0 30px;}
+
+
+#como .fa {font-size: 80px;}
+#como .fab {font-size: 80px;}
+#como .fas {font-size: 80px;}
+
+
 section{padding:80px 0px}
 section.cta{padding:80px 0px 0px}
 section.redes{background: #252c75}
 section.redes .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:3.5em; padding:30px; margin:20px 20px 0;color:#fff;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;border-bottom:4px solid #252c75;}
 section.redes .fa:hover {border-bottom:4px solid #fff;}
 section.fazemos{background:#fff; color:#003C58;}
+#fazemos .fa {font-size: 80px;}
+#fazemos .fas {font-size: 80px;}
 /* section.cursos p{font-size: 12px;} */
 section.cursos{background:#003C58; color:#fff;}
-ection.cursos p{font-size: 12px;}
+section.cursos p{font-size: 12px;}
 section.team p{font-size: 16px;}
 section.banner{background: url(../images/bg-color.jpg) center center; background-repeat:no-repeat; background-size:cover; padding:180px 0 140px;}
 section.banner h2{font-size: 42px; color:#fff}
@@ -98,8 +107,10 @@ img::-moz-selection{color:#fff;background:0 0}
 
 /*! Parallax*/
 .parallax-container { position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;}
-.parallax-container h1 {color:#fff; font-size:52px;}
-.parallax-container h3 {color:#fff; font-size:26px; font-weight:400;}
+.parallax-container h1 {color:#003C58; font-size:52px;}
+.parallax-container h3 {color:#003C58; font-size:26px; font-weight:400;}
+
+
 .parallax-container .parallax {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
 .parallax-container .parallax img {display: none;position: absolute;left: 50%;bottom: 0;min-width: 100%;min-height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
 .top {top:35%; position: inherit;}
@@ -201,6 +212,10 @@ section h2 {font-size:38px;}
 .navbar-fixed-top .navbar-collapse, .navbar-header, .navbar-fixed-top{background-color:#1498d5;}
 }
 
+/* section.cursos{background:#003C58; color:#fff;} */
+#diferencial {background:#fafdff}
+#fazemos {background:#f6f6f6}
+
 /*! Form CTA*/
 .form {
   width:100%;
@@ -292,15 +307,15 @@ section h2 {font-size:38px;}
     list-style: none;
     height: 230px;
     position: relative; }
-@media (max-width: 1023px) {
+@media (max-width: 1000px) {
       .Roadmap__events {
         height: 650px; } }
 .Roadmap__event {
     position: absolute;
     height: 100px; }
 .Roadmap__event:nth-child(1) {
-      left: calc((100% / 6 + 10px) * (1 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (1 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(1) {
           top: calc(100px * 0);
@@ -309,8 +324,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(2) {
-      left: calc((90% / 6 + 10px) * (2 - 1));
-      width: calc(120% / 6); }
+      left: calc((90% / 5 + 10px) * (2 - 1));
+      width: calc(120% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(2) {
           top: calc(100px * 1);
@@ -319,8 +334,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(3) {
-      left: calc((100% / 6 + 10px) * (3 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (3 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(3) {
           top: calc(100px * 2);
@@ -329,8 +344,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(4) {
-      left: calc((100% / 6 + 10px) * (4 - 1));
-      width: calc(100% / 6); }
+      left: calc((100% / 5 + 10px) * (4 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(4) {
           top: calc(100px * 3);
@@ -339,8 +354,8 @@ section h2 {font-size:38px;}
           margin: auto;
           width: 40%; } }
 .Roadmap__event:nth-child(5) {
-      left: calc((98.5% / 6 + 10px) * (5 - 1));
-      width: calc(100% / 6); }
+      left: calc((98.5% / 5 + 10px) * (5 - 1));
+      width: calc(100% / 5); }
 @media (max-width: 1023px) {
         .Roadmap__event:nth-child(5) {
           top: calc(100px * 4);
@@ -348,20 +363,10 @@ section h2 {font-size:38px;}
           right: 0;
           margin: auto;
           width: 40%; } }
-.Roadmap__event:nth-child(6) {
-      left: calc((97% / 6 + 10px) * (6 - 1));
-      width: calc(100% / 6); }
-@media (max-width: 1023px) {
-        .Roadmap__event:nth-child(6) {
-          top: calc(100px * 5);
-          left: 0;
-          right: 0;
-          margin: auto;
-          width: 40%; } }
 .Roadmap__event:nth-child(1):after {
       background-color: #00AEFF; }
-.Roadmap__event:nth-child(2):after {
-      background-color: #00AEFF; }
+/* .Roadmap__event:nth-child(2):after {
+      background-color: #00AEFF; } */
 /* .Roadmap__event:nth-child(3):after {
       background-color: #00AEFF; } */
 
