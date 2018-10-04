@@ -8,7 +8,7 @@ gulp.task('serve', function () {
             baseDir: "./app"
         }
     });
-    gulp.watch("./app/*.html").on("change", reload);
+    gulp.watch("app/*.html").on("change", reload);
     gulp.watch("app/*.js").on("change", reload);
     gulp.watch("app/css/*.css").on("change", reload);
     gulp.watch("app/scss/*.css").on("change", reload);
