@@ -40,7 +40,7 @@ p{font-size:18px;line-height:1.65;margin-bottom:25px}
 .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{color:#fff;background-color:transparent; border-bottom: 2px solid #b71463}
 .navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:transparent}
 @media (min-width:768px){
-.navbar-default{background-color:transparent;border-color:transparent}
+.navbar-default{background-color:#fff;border-color:transparent}
 .navbar-default .navbar-header .navbar-brand{color:rgba(255,255,255,.7)}
 .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fff}
 .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#fff}
@@ -56,6 +56,7 @@ section.contact{text-align:center}
 @media (min-width:992px){
 	header .header-content .header-content-inner h1{font-size:52px}
 }
+
 .right-lang {padding:8px 0 0 30px;}
 
 
@@ -106,7 +107,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .p-right {padding-right: 0!important}
 
 /*! Parallax*/
-.parallax-container { position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;}
+.parallax-container { position: relative;overflow: hidden;height: 110vh; padding:0px 10px 20px;background-image: linear-gradient(-45deg, #a1cef1 0%, rgba(27,127,204,.8) 100%)}
 .parallax-container h1 {color:#003C58; font-size:52px;}
 .parallax-container h3 {color:#003C58; font-size:26px; font-weight:400;}
 
