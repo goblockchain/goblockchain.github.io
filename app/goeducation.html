@@ -24,48 +24,19 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/badger-accordion.css">
-
-    <style media="screen">
-        .badger-accordion__panel {
-            max-height: 0;
-            overflow: hidden;
-        }
-
-        .badger-accordion__panel.is-active {
-            max-height: 75vh;
-        }
-
-        .badger-accordion__panel.is-hidden {
-            max-height: 0 !important;
-        }
-
-        .badger-accordion--initalised .badger-accordion__panel {
-            transition: all ease-in-out 0.2s;
-            margin-bottom: 10px;
-            background: #00AEFF;
-            color: #fff;
-        }
-    </style>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/style.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/owl.carousel.js"></script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments) };
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
         gtag('js', new Date());
         gtag('config', 'UA-107225502-1');
         gtag('send', 'pageview');
+
     </script>
 </head>
 
@@ -91,19 +62,19 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right" style="padding: 10px 0 0 5px;">
                     <li>
-                        <a href="#quem-somos">GOLABS</a>
+                        <a href="golabs.html">GOLABS</a>
                     </li>
                     <li>
-                        <a href="#cursos">GO SOLUTIONS</a>
+                        <a href="golutions.html">GOSOLUTIONS</a>
                     </li>
                     <li>
-                        <a href="#porque">GO EDUCATION</a>
+                        <a href="goeducation.html">GOEDUCATION</a>
                     </li>
                     <li>
-                        <a href="#quem-somos">SOBRE</a>
+                        <a href="index.html#quem-somos">SOBRE</a>
                     </li>
                     <li>
-                        <a href="#contato">CONTATO</a>
+                        <a href="index.html#contato">CONTATO</a>
                     </li>
                 </ul>
             </div>
@@ -114,37 +85,63 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1 class="display-3">Fazer o novo da forma nova!</h1>
-            <p>Acreditamos que para criar coisas nova e para um mundo melhor não é possível aplicando os mesmos modelos aplicados a séculos.
+            <h1>Educação descentralizada e colaborativa!</h1>
+            <p>
+                Não GO você pode ser uma professor, você aluno pode contribuir e ter acesso a um conteúdo mais
+                acessível sem intermediários.
             </p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Quero contribuir »</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Quero ensinar »</a></p>
         </div>
     </div>
     <section>
         <div class="container">
             <div class="col-md-12 text-center mb2">
-                <h2>SOBRE A GO</h2>
+                <h2>GOEDUCATION</h2>
                 <img src="svg/line.svg" height="18">
             </div>
 
             <div class="col-md-12 mb4">
-                <p>A GoBlockchain iniciou suas atividades em 2017 voltada para educação e treinamento em Blockchain.
-                    Sua atuação no mercado pode ser entendida como uma espécie de “mineração de blocos” onde cada bloco
-                    adicionado: um evento, curso, meetup nos dava a validação necessária para seguir adiante. Novos
-                    “nós” foram se incorporando à nossa rede e a maturação de nossos processos nos levou a 3 “forks”.
-                    Hoje somos a GoEducation e estamos construindo a GoSolution e a GoLabs.
-                    Com essas novas áreas acreditamos que vamos oferecer a nossos colaboradores espaço para criação de
-                    projetos em conjunto. Todos poderão atuar como consultores a medida que construírem reputação na
-                    organização.
-                    Nosso próximo passo é levar a GoBlockchain a um patamar mais elevado como organização capaz de
-                    impactar positivamente o ecossistema de Blockchain a nível global e atender toda essa demanda
-                    oferecendo um novo modelo de construção de software e gerando mão de obra de qualidade através da
-                    nossa frente de educação.
+                <p>A GoEducation é a “chain” gênesis, com mais tempo de vida da GoBlockchain. Voltada para
+                    evangelização e capacitação das pessoas para atuarem em projetos que envolvam Blockchain. Contamos
+                    com um time de colaboradores formado por profissionais de mercado especialistas em Blockchain e
+                    DLTs, capazes de promover treinamentos presenciais ou online. Nossos cursos são práticos,
+                    produzimos material em português, com qualidade a preços acessíveis. <a href="#cursos">Vejam nossos cursos</a>.
+                    Mantemos contato com ex-alunos formando uma “rede de conexão e conhecimento” de profissionais aptos
+                    a colaborar em nossos projetos.
                 </p>
             </div>
         </div>
     </section>
-
+    <section id="cursos">
+        <div class="container">
+            <div class="col-md-12 text-center mb2">
+                <h3>Nossos cursos</h3>
+                <img src="svg/line.svg" height="18">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/FormacaoBlockchain.png" height="200px" width="200px">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/DevMobile.png" height="200px" width="200px">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/DevSolidity.png" height="200px" width="200px">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/DevBlcEth.png" height="200px" width="200px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/DevHyperledger.png" height="200px" width="200px">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/DltCorda.png" height="200px" width="200px">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer id="contato">
         <div class="container">
@@ -157,5 +154,8 @@
     </footer>
 
 </body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/style.js"></script>
 
 </html>
