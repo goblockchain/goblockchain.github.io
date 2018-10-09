@@ -58,7 +58,11 @@ section.contact{text-align:center}
 }
 
 .right-lang {padding:8px 0 0 30px;}
-
+/* .jumbotron_azul { background-image: linear-gradient(rgb(255, 255, 255), rgb(194, 240, 255))} */
+.jumbotron_amarelo { background-image: linear-gradient(rgb(255, 255, 255), rgb(252, 234, 71))}
+.jumbotron_azul { background-image: linear-gradient(rgb(255, 255, 255), rgb(194, 240, 255))}
+.jumbotron_rosa { background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 198, 250))}
+.jumbotron_verde { background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 250, 220))}
 
 #como .fa {font-size: 80px;}
 #como .fab {font-size: 80px;}
