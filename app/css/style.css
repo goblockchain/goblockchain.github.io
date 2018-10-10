@@ -463,3 +463,34 @@ section h2 {font-size:38px;}
   width: 100%;
   height: 100%;
   }
+
+  .buttonv {
+    outline: none;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    /* border-radius: 50%; */
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 2px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;    
+}
+
+.buttonv2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.buttonv:hover {
+    background-color: #008CBA; /* Green */
+    color: white;
+}
