@@ -64,6 +64,14 @@ section.contact{text-align:center}
 .jumbotron_rosa { background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 198, 250))}
 .jumbotron_verde { background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 250, 220))}
 
+/* .jumbotron_rosa {
+  background: url("../images/collaborative-learning.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+} */
+
 #como .fa {font-size: 80px;}
 #como .fab {font-size: 80px;}
 #como .fas {font-size: 80px;}
@@ -206,11 +214,11 @@ section.banner h2{font-size: 32px;}
 }
 @media screen and (max-width: 1119px){
 section.redes .fa {font-size: 2em;padding: 20px;margin: 10px 10px 0;}
-section {padding: 40px 0px 80px;}
+section {padding: 40px 0px 30px;}
 .right-lang {padding:8px 0px 20px; margin-top:10px; margin-left: 20px;}
 section.cta {padding: 30px 0 60px;}
-.parallax-container h1 {color:#fff; font-size:28px;}
-.parallax-container h3 {color:#fff; font-size:18px; font-weight:400;}
+.parallax-container h1 {font-size:28px;}
+.parallax-container h3 {font-size:18px; font-weight:400;}
 section h2 {font-size:38px;}
 .card, .card div {width: 100%!important;}
 .navbar-default .nav>li>a {font-size: 18px;font-weight: 600;}
