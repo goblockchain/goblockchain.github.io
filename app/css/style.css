@@ -45,10 +45,10 @@ p{font-size:18px;line-height:1.65;margin-bottom:25px}
 .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fff}
 .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#fff}
 .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fff;background:transparent;font-weight: 600;}
-.navbar-default.affix{background-color:#00263a;border-color:rgba(34,34,34,.0); max-height:110px;}
+.navbar-default.affix{background-color:#1498d5;border-color:rgba(34,34,34,.0); max-height:110px;}
 .navbar-default.affix .navbar-header .navbar-brand{color:#003C58}
 .navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{color:#b71463}
-.navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#fff; background: #00263a;}
+.navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#fff; background: transparent;}
 .navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{color:#b71463}} header{position:relative;width:100%;min-height:auto;overflow-y:hidden;background:url(../images/bg.jpg); background-size:cover;color:#003C58}header .header-content{text-align:center;padding:150px 0 50px;position:relative}header .header-content .header-content-inner{position:relative;max-width:500px;margin:0 auto}header .header-content .header-content-inner h1{margin-top:0;margin-bottom:30px;font-size:30px}header .header-content .header-content-inner .list-badges{margin-bottom:25px}header .header-content .header-content-inner .list-badges img{height:50px;margin-bottom:25px}header .device-container{max-width:300px;margin:0 auto 100px}header .device-container .screen img{border-radius:3px}@media (min-width:768px){header{height:650px;}header .header-content{text-align:left;padding:0;height:650px;}header .header-content .header-content-inner{max-width:none;margin:0;position:absolute;top:50%;transform:translateY(-50%)}header .header-content .header-content-inner h1{font-size:35px}
 header .device-container{max-width:none;max-height:calc(0vh);margin:100px auto 0}}
 .contact-widget.fixed {bottom: -1px;left: 0;position: fixed;right: 0;z-index: 999;}
@@ -58,7 +58,11 @@ section.contact{text-align:center}
 }
 
 .right-lang {padding:8px 0 0 30px;}
-
+/* .jumbotron_azul { background-image: linear-gradient(rgb(255, 255, 255), rgb(194, 240, 255))} */
+.jumbotron_amarelo { background-image: linear-gradient(rgb(255, 255, 255), rgb(252, 234, 71))}
+.jumbotron_azul { background-image: linear-gradient(rgb(255, 255, 255), rgb(194, 240, 255))}
+.jumbotron_rosa { background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 198, 250))}
+.jumbotron_verde { background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 250, 220))}
 
 #como .fa {font-size: 80px;}
 #como .fab {font-size: 80px;}
