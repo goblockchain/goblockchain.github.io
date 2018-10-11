@@ -62,7 +62,7 @@ section.contact{text-align:center}
 .jumbotron_amarelo { background-image: linear-gradient(rgb(255, 255, 255), rgb(252, 234, 71))}
 .jumbotron_azul { background-image: linear-gradient(rgb(255, 255, 255), rgb(194, 240, 255))}
 .jumbotron_rosa { background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 198, 250))}
-.jumbotron_verde { background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 250, 220))}
+.jumbotron_verde { background-image: linear-gradient( rgb(255, 255, 255), rgb(198, 250, 220))}
 
 /* .jumbotron_rosa {
   background: url("../images/collaborative-learning.jpg") no-repeat center center; 
