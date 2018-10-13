@@ -21,9 +21,6 @@ _A GoBlockchain não tem um “CEO”, centralizador das decisões, e sim colabo
 ### Governança
 A gestão da GoBlockchain é feita seguindo a _filosofia de colaboração, consenso, transparência_ sempre pautado na **ética** e utilizando como base ferramentas e métodos ágeis para organização e comunicação.
 
-**Conselho Gestor**
-É formado inicialmente pelos fundadores, porém os colaboradores mais atuantes podem fazer parte do conselho e a quantidade de conseleheiros deve ser sempre impar e representar pelo menos 10% do total de colabores. O Conselho se reúne sempre que necessário para tratar sobre todos assuntos pertinentes a GoBlockchain.
-
 **Membros, Papéis e Responsabilidades**
 _Os membros são pessoas com o propósito pessoal alinhado com a proposta da GoBlockchain._
 
@@ -32,12 +29,9 @@ _Os membros são pessoas com o propósito pessoal alinhado com a proposta da GoB
 - **Colaboradores**: Contribuem com o desenvolvimento da plataforma colaborando com as tarefas.
 - **Parceiros**: Contribuem com o desenvolvimento da plataforma oferecendo produtos e serviços 
 - **Cliente**: Consome produtos e serviços oferecidos pela plataforma. Para se tornar um conselheiro, precisará ser um colaborador
-- **Conselheiros**: Contribui com o desenvolvimento da plataforma participando do conselho gestor. Qualquer membro pode se tornar um conselheiro.
-
-Sendo um parceiro, colaborador ou cliente da plataforma, você tem direito a sugerir mudanças e melhorias as quais serão levadas para a votação no conselho gestor.
 
 ### Atividades
-O Colaborador poderá escolher qualquer tarefa do BackLog para contribuir, as tarefas poderão ser realizadas em grupo, desde que haja comunicação entre as partes. Após a conclusão da tarefa o Conselho Gestor irá validar a tarefa e atribuir os pontos ao colaborador.
+O Colaborador poderá escolher qualquer tarefa do BackLog para contribuir, as tarefas poderão ser realizadas em grupo, desde que haja comunicação entre as partes. Após a conclusão da tarefa os membros da atividade iram validar a tarefa e atribuir os pontos aos colaboradores.
 
 _O colaborador acumulará pontos para participar das votações. Os pontos expiram após um ano contado a partir da data da finalização da atividade._
 **As atividades estão disponíveis em nosso Trello - [nesse link](https://trello.com/b/mnVqJvV8/goblockchain-colaboradores).**
