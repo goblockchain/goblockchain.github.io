@@ -1,5 +1,5 @@
 # GoBlockchain
-[![N|Solid](http://goblockchain.io/images/logo_goblockchain.png)](http://goblockchain.io/)
+[![N|Solid](https://www.goblockchain.io/images/logo_goblockchain.png)](https://www.goblockchain.io/)
 
 [![alt text][1.1]][1] [![alt text][2.1]][2]
 
@@ -7,7 +7,7 @@ _A plataforma e o conteúdo estão em fase de desenvolvimento na versão beta e 
 
 ----
 ## O que é a GoBlockchain?
-A [GoBlockchain](http://goblockchain.io) é “_Uma plataforma com objetivo de conectar pessoas com interesse na tecnologia Blockchain_” com propósito de “_Impulsionar o conhecimento a cerca da tecnologia Blockchain aplicando seus conceitos na prática_”.
+A [GoBlockchain](https://www.goblockchain.io) é “_Uma plataforma com objetivo de conectar pessoas com interesse na tecnologia Blockchain_” com propósito de “_Impulsionar o conhecimento a cerca da tecnologia Blockchain aplicando seus conceitos na prática_”.
 
 Inicialmente éramos apenas entusiastas interessados em criar e promover cursos sobre negócios e desenvolvimento usando Blockchain.
 
