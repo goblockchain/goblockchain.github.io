@@ -1,5 +1,5 @@
 # GoBlockchain
-[![N|Solid](https://www.goblockchain.io/images/logo_goblockchain.png)](https://www.goblockchain.io/)
+[![N|Solid](https://www.goblockchain.io/app/images/logo_goblockchain.png)](https://www.goblockchain.io/)
 
 [![alt text][1.1]][1] [![alt text][2.1]][2]
 
