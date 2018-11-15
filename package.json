@@ -4,7 +4,10 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "browser-sync": "^2.2.1",
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1"
   }
 }
