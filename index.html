@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="app/css/owl.carousel.min.css">
     <link rel="stylesheet" href="app/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="app/css/badger-accordion.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <style media="screen">
         .badger-accordion__panel {
@@ -54,6 +56,39 @@
             color: #fff;
         }
     </style>
+
+
+
+<style>
+    /* setting the dimensions */
+    progress {
+        width: 400px;
+        height: 24px;
+        display: block;
+        /* disable defaults */
+        -webkit-appearance: none;
+        border: none;
+    }
+
+    /*Styling the background of the progress bar */
+    progress::-webkit-progress-bar{
+        background: white;
+        border-radius: 45px;
+        padding: 2px;
+        box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    /* Setting the appearance of the meter */
+    progress::-webkit-progress-value {
+        border-radius: 25px;
+        box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+        background-size: 250px 25px;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+            transparent 75%, rgba(255, 255, 255, .15) 75%, rgba(255, 255, 255, .15) 75%,
+            transparent 75%, transparent);
+    }
+</style>
+
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
@@ -81,11 +116,12 @@
                         title="Logotipo GOBlockchain" style="position:fixed;margin-top: 2vh; border: 5px solid #fff; border-radius: 10%; z-index: 1050;">
                 </a>
             </div>
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-right" style="margin-top: .5vh">
                     <!-- <li style="float:left;">
-                        <a style="color:#2C254E;background:#f6f6f6;font-weight: 200" href="https://www.goBlockchain.io">PT</a>
-                    </li> -->
+                                        <a style="color:#2C254E;background:#f6f6f6;font-weight: 200" href="https://www.goBlockchain.io">PT</a>
+                                    </li> -->
                     <li style="float:left">
                         <a href="" style="color:azure; background-color: #1498d5; border-radius: 100%">EN</a>
                     </li>
@@ -107,6 +143,17 @@
                         <a href="#contato">CONTATO</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-right" style="margin-top: .5vh">
+                    <li style="float:right;margin-top: -10px">
+                            <a href="https://etherscan.io/token/0x48fd2b9e019f137730db101552d04d471fbac9d1" target="_blank" title=" Acessar Etherscan ">
+                                <h5 class="mb-20" style="color:#003C58;">GBC emitidos: <label id="supplyGBC"></label>
+                                    <i class="fa fa-external-link" aria-hidden="true" title=" Acessar Etherscan "></i>
+                                </h5>
+                            </a>
+                            <div id="progressbarGBC" class="w3-blue" style="height:2px;width:0;margin-top: -25px"></div>
+                    </li>
+                </ul>
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -123,10 +170,7 @@
                         Blockchain e contribuir para o crescimento de um novo ecossistema descentralizado e
                         transparente. </h3>
                 </div>
-
-
             </div>
-
             <div class="text-center">
                 <a href="https://goo.gl/forms/wPZPgThCcArvSKUs2" id="btnQueroColaborar" name="btnQueroColaborar"
                     target="_blank">
@@ -523,6 +567,10 @@
     <script src="app/js/index.js"></script>
     <script src="app/js/owl.carousel.js"></script>
 
+    <!-- web3 -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+
+
     <script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
     <script>
         $(function () {
@@ -550,6 +598,38 @@
         });
 
     </script>
+
+<script>
+    // by Victor Alves - aerovictor@gmail.com            
+    let startbar = function () {
+        let elem = document.getElementById("progressbarGBC");
+        let width = 1;
+        let id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+            }
+        }
+    }();
+</script>
+
+    <script>
+        // by Victor Alves - aerovictor@gmail.com        
+        const testnet = 'https://mainnet.infura.io/';        
+        const walletAddress = '0x48fd2b9e019f137730db101552d04d471fbac9d1';
+        const web3 = new Web3(new Web3.providers.HttpProvider(testnet));
+        var balance = web3.eth.getBalance(walletAddress);
+        // balance = web3.toDecimal(balance);
+        var balance = web3.fromWei(balance, 'mwei').toFixed(3);
+        console.log(balance);
+        $("#supplyGBC").append(balance);
+        
+    </script>
+
+
 </body>
 
 </html>
