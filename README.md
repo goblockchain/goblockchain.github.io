@@ -70,6 +70,13 @@ Se tornar a maior plataforma global descentralizada e distribuída para que mais
 - Colaboração
 - Transparência
 
+
+### Instalação
+```
+- npm install
+- npm install gulp -g
+- gulp serve
+```
 [1.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
 [2.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
 
