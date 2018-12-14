@@ -32,8 +32,6 @@
     <link rel="stylesheet" href="app/css/owl.carousel.min.css">
     <link rel="stylesheet" href="app/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="app/css/badger-accordion.css">
-    
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <style media="screen">
         .badger-accordion__panel {
@@ -57,39 +55,6 @@
         }
     </style>
 
-
-
-<style>
-    /* setting the dimensions */
-    progress {
-        width: 400px;
-        height: 24px;
-        display: block;
-        /* disable defaults */
-        -webkit-appearance: none;
-        border: none;
-    }
-
-    /*Styling the background of the progress bar */
-    progress::-webkit-progress-bar{
-        background: white;
-        border-radius: 45px;
-        padding: 2px;
-        box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
-    }
-
-    /* Setting the appearance of the meter */
-    progress::-webkit-progress-value {
-        border-radius: 25px;
-        box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
-        background-size: 250px 25px;
-        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
-            transparent 75%, rgba(255, 255, 255, .15) 75%, rgba(255, 255, 255, .15) 75%,
-            transparent 75%, transparent);
-    }
-</style>
-
-
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107225502-1"></script>
     <script>
@@ -112,8 +77,7 @@
                     <i style="font-size: .8em;" class="fa fa-bars"></i>
                 </button>
                 <a href="https://www.goblockchain.io">
-                    <img width="105px" height="80px" src="app/images/logo_goblockchain.png" alt="Logotipo GOBlockchain"
-                        title="Logotipo GOBlockchain" style="position:fixed;margin-top: 2vh; border: 5px solid #fff; border-radius: 10%; z-index: 1050;">
+                    <img width="105px" height="80px" src="app/images/logo_goblockchain.png" alt="Logotipo GOBlockchain" title="Logotipo GOBlockchain" style="position:fixed;margin-top: 2vh; border: 5px solid #fff; border-radius: 10%; z-index: 1050;">
                 </a>
             </div>
 
@@ -144,13 +108,12 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-right" style="margin-top: .5vh">
-                    <li style="float:right;margin-top: -10px">
-                            <a href="https://etherscan.io/token/0x48fd2b9e019f137730db101552d04d471fbac9d1" target="_blank" title=" Acessar Etherscan ">
-                                <h5 class="mb-20" style="color:#003C58;">GBC emitidos: <label id="supplyGBC"></label>
-                                    <i class="fa fa-external-link" aria-hidden="true" title=" Acessar Etherscan "></i>
-                                </h5>
-                            </a>
-                            <div id="progressbarGBC" class="w3-blue" style="height:2px;width:0;margin-top: -25px"></div>
+                    <li style="float:right;margin-top: -5px">
+                        <a href="https://etherscan.io/token/0x48fd2b9e019f137730db101552d04d471fbac9d1" target="_blank" title=" Acessar Etherscan ">
+                            <h5 class="mb-20" style="color:#003C58;">GBC emitidos: <label id="supplyGBC"></label>
+                                <i class="fa fa-external-link" aria-hidden="true" title=" Acessar Etherscan "></i>
+                            </h5>
+                        </a>
                     </li>
                 </ul>
 
@@ -598,23 +561,6 @@
         });
 
     </script>
-
-<script>
-    // by Victor Alves - aerovictor@gmail.com            
-    let startbar = function () {
-        let elem = document.getElementById("progressbarGBC");
-        let width = 1;
-        let id = setInterval(frame, 10);
-        function frame() {
-            if (width >= 100) {
-                clearInterval(id);
-            } else {
-                width++;
-                elem.style.width = width + '%';
-            }
-        }
-    }();
-</script>
 
     <script>
         // by Victor Alves - aerovictor@gmail.com        
