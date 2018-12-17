@@ -65,6 +65,8 @@ section.contact{text-align:center}
 /* .jumbotron_rosa { background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 198, 250))} */
 .jumbotron_verde { background-image: linear-gradient( rgb(255, 255, 255), rgb(198, 250, 220))}
 
+.jumbotron p.strong { font-weight: 400 }
+
 /* .jumbotron_rosa {
   background: url("../images/collaborative-learning.jpg") no-repeat center center; 
   -webkit-background-size: 100% 100%;
