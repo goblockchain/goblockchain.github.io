@@ -130,7 +130,7 @@ img::-moz-selection{color:#fff;background:0 0}
 
 .parallax-container .parallax {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
 .parallax-container .parallax img {display: none;position: absolute;left: 50%;bottom: 0;min-width: 100%;min-height: 100%;-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
-.top {top:35%; position: inherit;}
+.top {top:25%; position: inherit;}
 .tag-curso {border: 1px solid #fff;padding: 5px;margin-right: 10px;line-height: 45px;}
 .navbar .navbar-nav .new:after {-webkit-transition: opacity .3s ease;transition: opacity .3s ease;content: "";background: #ff0060;border: 1px solid #ff0060;border-radius: 50%;height: 10px;width: 10px;position: absolute;margin: 0px -5px;}
 .post-thumb {min-height: 380px; width: 100%; padding:30px 20px 1px; display: block;color: #fff;line-height: 20px;text-decoration: none; background-image: linear-gradient(to left, #009EE8, #003C58);overflow: hidden;}
