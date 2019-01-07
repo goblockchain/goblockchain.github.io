@@ -440,7 +440,7 @@
                             <!-- Calendly link widget begin -->
                             <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/henriqueleite/30min');return false;">Agende
+                            <a href="" onclick="Calendly.showPopupWidget('https://calendly.com/henriqueleite/15min');return false;">Agende
                                 uma conversa</a>
                             <!-- Calendly link widget end -->
                         </p>
@@ -527,58 +527,14 @@
     <script src="app/js/style.js"></script>
     <script src="app/js/materialize.js"></script>
     <script src="app/js/init.js"></script>
-    <script src="app/js/index.js"></script>
     <script src="app/js/owl.carousel.js"></script>
 
     <!-- web3 -->
     <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
-
-
+    <script src="app/js/index.js"></script>
     <script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
-    <script>
-        $(function () {
-            var $doc = $('html, body');
-            $('a').click(function () {
-                $doc.animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top
-                }, 500);
-                return false;
-            });
 
-            var shrinkHeader = 40;
-            $(window).scroll(function () {
-                var scroll = getCurrentScroll();
-                if (scroll >= shrinkHeader) {
-                    $('.header').addClass('shrink');
-                } else {
-                    $('.header').removeClass('shrink');
-                }
-            });
 
-            function getCurrentScroll() {
-                return window.pageYOffset || document.documentElement.scrollTop;
-            }
-        });
-
-    </script>
-
-    <script>
-    const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/d46d0f948caa4977a97cdd2dbfce3228"));
-
-    // by Victor Alves - aerovictor@gmail.com        
-    const mainnet = 'https://mainnet.infura.io/v3/d46d0f948caa4977a97cdd2dbfce3228';        
-    const walletAddress = '0x48fd2b9e019f137730db101552d04d471fbac9d1';
-    var balance = web3.eth.getBalance(walletAddress, function(error, result) {
-        balance = web3.toDecimal(result);
-        // balance = web3.toDecimal(balance);
-        var balance = web3.fromWei(result, 'mwei').toFixed(3);
-        console.log(balance);
-        $("#supplyGBC").append(balance);            
-    });
-        
-
-        
-    </script>
 
 
 </body>
