@@ -563,15 +563,20 @@
     </script>
 
     <script>
-        // by Victor Alves - aerovictor@gmail.com        
-        const testnet = 'https://mainnet.infura.io/';        
-        const walletAddress = '0x48fd2b9e019f137730db101552d04d471fbac9d1';
-        const web3 = new Web3(new Web3.providers.HttpProvider(testnet));
-        var balance = web3.eth.getBalance(walletAddress);
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/d46d0f948caa4977a97cdd2dbfce3228"));
+
+    // by Victor Alves - aerovictor@gmail.com        
+    const mainnet = 'https://mainnet.infura.io/v3/d46d0f948caa4977a97cdd2dbfce3228';        
+    const walletAddress = '0x48fd2b9e019f137730db101552d04d471fbac9d1';
+    var balance = web3.eth.getBalance(walletAddress, function(error, result) {
+        balance = web3.toDecimal(result);
         // balance = web3.toDecimal(balance);
-        var balance = web3.fromWei(balance, 'mwei').toFixed(3);
+        var balance = web3.fromWei(result, 'mwei').toFixed(3);
         console.log(balance);
-        $("#supplyGBC").append(balance);
+        $("#supplyGBC").append(balance);            
+    });
+        
+
         
     </script>
 
