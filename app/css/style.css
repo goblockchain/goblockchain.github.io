@@ -505,3 +505,13 @@ section h2 {font-size:38px;}
     background-color: #008CBA; /* Green */
     color: white;
 }
+
+
+/* Bottom right text */
+.bottom-center {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  color: yellow;
+  
+}
