@@ -106,7 +106,7 @@ footer li {text-align:left; padding:0}
 footer ul {list-style-type:none}
 footer a{color:rgba(255,255,255,.9); text-decoration:none;}
 footer a:hover {color:#fff;}
-footer .fa {font-size: 42px; margin-left: 50px}
+footer .fa {font-size: 42px;}
 footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:hover{color:#fff;}
 .bg-primary{background:#003C58;background:-webkit-linear-gradient(#003C58,#fdc539);background:linear-gradient(#003C58,#fdc539)}
 .text-primary{color:#003C58}
