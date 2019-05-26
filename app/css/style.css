@@ -234,6 +234,7 @@ section h2 {font-size:38px;}
 /* section.cursos{background:#003C58; color:#fff;} */
 #diferencial {background:#fafdff}
 #fazemos {background:#f6f6f6}
+#parceiros {background:#f6f6f6}
 
 /*! Form CTA*/
 .form {
@@ -384,10 +385,10 @@ section h2 {font-size:38px;}
           width: 40%; } }
 .Roadmap__event:nth-child(1):after {
       background-color: #00AEFF; }
-/* .Roadmap__event:nth-child(2):after {
-      background-color: #00AEFF; } */
-/* .Roadmap__event:nth-child(3):after {
-      background-color: #00AEFF; } */
+.Roadmap__event:nth-child(2):after {
+      background-color: #00AEFF; }
+.Roadmap__event:nth-child(3):after {
+      background-color: #00AEFF; }
 
 @media (min-width: 1024px) {
       .Roadmap__event:nth-child(2n + 1) {
